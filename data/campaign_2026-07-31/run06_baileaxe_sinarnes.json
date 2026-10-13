@@ -1,0 +1,17 @@
+{
+  "run": "run06_baileaxe_sinarnes",
+  "complete": true,
+  "wall_start": "2026-07-31 16:28:49",
+  "duration_s": 87.2,
+  "samples": 89774,
+  "rate_hz": 1029.5,
+  "mode_machine": 5,
+  "max_abs_roll_deg": 15.6,
+  "max_abs_pitch_deg": 48.3,
+  "max_motor_temp_C": 77.0,
+  "any_motor_fault": false,
+  "capture_gaps_gt_50ms": 2,
+  "outcome": "success",
+  "condition": "no_harness",
+  "notes": "Completo el baile y volvio a Velocity. Sin arnes. Motores a 77 C al cerrar; la sesion se encadeno sin pausa termica completa (64/69/73/75/77)."
+}

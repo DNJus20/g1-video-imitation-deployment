@@ -1,0 +1,70 @@
+{
+ "banco": {
+  "sim2sim_baileaxe_r1": {
+   "rmse_sin_lag_deg": 15.95,
+   "lag_s": -0.026,
+   "rmse_con_lag_deg": 15.76
+  },
+  "sim2sim_baileaxe_r2": {
+   "rmse_sin_lag_deg": 16.06,
+   "lag_s": -0.026,
+   "rmse_con_lag_deg": 15.76
+  },
+  "sim2sim_baileaxe_r3": {
+   "rmse_sin_lag_deg": 15.95,
+   "lag_s": -0.026,
+   "rmse_con_lag_deg": 15.75
+  },
+  "sim2sim_tinkus_r1": {
+   "rmse_sin_lag_deg": 14.54,
+   "lag_s": -0.024,
+   "rmse_con_lag_deg": 14.21
+  },
+  "sim2sim_tinkus_r2": {
+   "rmse_sin_lag_deg": 14.35,
+   "lag_s": -0.024,
+   "rmse_con_lag_deg": 14.15
+  },
+  "sim2sim_tinkus_r3": {
+   "rmse_sin_lag_deg": 14.38,
+   "lag_s": -0.024,
+   "rmse_con_lag_deg": 14.17
+  }
+ },
+ "sim_entrenamiento": {
+  "sim_eval_baileaxe_final": {
+   "rmse_sin_lag_deg": 8.38,
+   "mejor_desfase_pasos": 1,
+   "mejor_desfase_s": -0.02,
+   "rmse_con_lag_deg": 8.2,
+   "barrido_deg": {
+    "-3": 11.68,
+    "-2": 10.31,
+    "-1": 9.16,
+    "0": 8.38,
+    "1": 8.2,
+    "2": 8.61,
+    "3": 9.52,
+    "4": 10.76,
+    "5": 12.16
+   }
+  },
+  "sim_eval_tinkus_final": {
+   "rmse_sin_lag_deg": 9.59,
+   "mejor_desfase_pasos": 1,
+   "mejor_desfase_s": -0.02,
+   "rmse_con_lag_deg": 9.44,
+   "barrido_deg": {
+    "-3": 12.85,
+    "-2": 11.45,
+    "-1": 10.31,
+    "0": 9.59,
+    "1": 9.44,
+    "2": 9.87,
+    "3": 10.79,
+    "4": 12.07,
+    "5": 13.56
+   }
+  }
+ }
+}

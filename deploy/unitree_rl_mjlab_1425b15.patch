@@ -1,0 +1,71 @@
+--- a/deploy/include/isaaclab/envs/mdp/terminations.h
++++ b/deploy/include/isaaclab/envs/mdp/terminations.h
+@@ -1,4 +1,6 @@
+ #pragma once
++#include <cmath>
++#include <algorithm>
+ 
+ #include "isaaclab/envs/manager_based_rl_env.h"
+ 
+@@ -11,8 +13,7 @@
+ {
+     auto & asset = env->robot;
+     auto & data = asset->data.projected_gravity_b;
+-//    return std::fabs(std::acos(-data[2])) > limit_angle;
+-    return false;
++    return std::fabs(std::acos(std::clamp(-data[2], -1.0f, 1.0f))) > limit_angle;
+ }
+ 
+ } 
+--- a/deploy/robots/g1/config/config.yaml
++++ b/deploy/robots/g1/config/config.yaml
+@@ -12,6 +12,10 @@
+       id: 5
+       type: Mimic
+ 
++    Mimic_Baileaxe:
++      id: 6
++      type: Mimic
++
+ 
+   Passive:
+     transitions: 
+@@ -35,7 +39,7 @@
+   FixStand:
+     transitions: 
+       Passive: LT + B.on_pressed
+-      Velocity: RT + A.on_pressed
++      Velocity: RT + A.on_pressed | start.on_pressed
+ 
+     kp: [
+       100,100,100,150,40,40,
+@@ -67,6 +71,7 @@
+     transitions: 
+       Passive: LT + B.on_pressed
+       Mimic_Dance1_subject2: RB + A.on_pressed
++      Mimic_Baileaxe: RB + B.on_pressed
+ 
+     policy_dir: config/policy/velocity
+ 
+@@ -74,9 +79,20 @@
+   Mimic_Dance1_subject2:
+     transitions:
+       Passive: LT + B.on_pressed
+-      Velocity: RT + A.on_pressed
++      Velocity: RT + A.on_pressed | start.on_pressed
+ 
+     motion_file: config/policy/mimic/dance1_subject2/params/dance1_subject2.npz
+     policy_dir: config/policy/mimic/dance1_subject2/
+     time_start: 0.0
+     time_end: 1000.0
++
++
++  Mimic_Baileaxe:
++    transitions:
++      Passive: LT + B.on_pressed
++      Velocity: RT + A.on_pressed | start.on_pressed
++
++    motion_file: config/policy/mimic/baileaxe/params/baileaxe57.npz
++    policy_dir: config/policy/mimic/baileaxe/
++    time_start: 0.0
++    time_end: 1000.0

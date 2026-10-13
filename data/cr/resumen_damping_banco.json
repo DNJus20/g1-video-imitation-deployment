@@ -1,0 +1,47 @@
+{
+ "fuente": "banco sim2sim del binario real g1_ctrl (analysis/cr_gpu/sim2sim_tilt.py), robot colgado de la banda (pies en el aire), estado Velocity, rampa de orientacion de la pelvis a 0,10 rad/s",
+ "umbral_codigo_deg": 57.3,
+ "umbral_codigo_rad": 1.0,
+ "definicion": "bad_orientation: acos(-g_z en el cuerpo) > 1,0 rad -> Passive (kp=0, kd=3). Medido en el banco como acos(R[2,2]) del cuaternion de la pelvis en el instante en que rt/lowcmd llega con kp=0",
+ "cabeceo": [
+  {
+   "run": "p1",
+   "eje": "pitch+ (adelante)",
+   "tilt_en_passive_deg": 57.73,
+   "ultimo_bajo_control_deg": 57.74,
+   "retardo_s": "<0,01"
+  },
+  {
+   "run": "p1b",
+   "eje": "pitch+ (repeticion)",
+   "tilt_en_passive_deg": 57.89,
+   "ultimo_bajo_control_deg": 57.93,
+   "retardo_s": "<0,01"
+  },
+  {
+   "run": "p2",
+   "eje": "pitch- (atras)",
+   "tilt_en_passive_deg": 58.17,
+   "ultimo_bajo_control_deg": 58.14,
+   "retardo_s": "<0,01"
+  }
+ ],
+ "cabeceo_resumen": {
+  "angulo_de_entrada_deg": "57,7 a 58,2",
+  "exceso_sobre_umbral_deg": "0,4 a 0,9 (una muestra de 10 ms a 5,7 grados/s = 0,06 grados; el resto es la discretizacion del lazo del FSM a 1 kHz y la dinamica del cuerpo colgado)",
+  "n": 3
+ },
+ "rodamiento": {
+  "runs": [
+   "r1",
+   "r2",
+   "r1s",
+   "r2s"
+  ],
+  "resultado": "NO CONCLUYENTE del banco: el servo de orientacion de la banda se vuelve inestable alrededor de 50 grados de rodamiento (saltos de 52 a 64-77 grados en 20 ms) o no sigue la rampa; el ejecutor si paso a Passive al cruzar 1 rad en r1, r2 y r2s, pero el angulo de cruce no se puede resolver. Es una limitacion del montaje, no del ejecutor."
+ },
+ "hardware_2026_10_12": {
+  "nota": "en las dos interrupciones de bailetinkus el salvaguarda actuo al cruzar 1 rad: inclinacion 58,5 y 58,0 grados en el primer lowstate tras la transicion; tiempo entre el cruce de 57,3 y el cambio a Passive: un ciclo de control"
+ },
+ "archivos": "data/cr/tilt_banco/sim2sim_tilt_*.{json,npz}"
+}

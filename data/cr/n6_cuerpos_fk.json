@@ -1,0 +1,243 @@
+{
+ "metrica": "media de ||p_rel_robot - p_rel_ref|| sobre cuerpos y cuadros; p_rel relativo a torso_link, yaw alineado; m",
+ "cuerpos": [
+  "pelvis",
+  "left_hip_roll_link",
+  "left_knee_link",
+  "left_ankle_roll_link",
+  "right_hip_roll_link",
+  "right_knee_link",
+  "right_ankle_roll_link",
+  "torso_link",
+  "left_shoulder_roll_link",
+  "left_elbow_link",
+  "left_wrist_yaw_link",
+  "right_shoulder_roll_link",
+  "right_elbow_link",
+  "right_wrist_yaw_link"
+ ],
+ "hardware": {
+  "run01_baileaxe_arnes": {
+   "todos_14": 0.062,
+   "piernas_6": 0.0873,
+   "brazos_6": 0.0568,
+   "tobillos_2": 0.1223,
+   "munecas_2": 0.1075,
+   "pelvis_1": 0.0036,
+   "cuadros": 2849,
+   "rmse_art_deg": 16.15,
+   "lag_s": -0.026
+  },
+  "run03_baileaxe_sinarnes": {
+   "todos_14": 0.0608,
+   "piernas_6": 0.0875,
+   "brazos_6": 0.0538,
+   "tobillos_2": 0.1222,
+   "munecas_2": 0.1008,
+   "pelvis_1": 0.0035,
+   "cuadros": 2849,
+   "rmse_art_deg": 15.59,
+   "lag_s": -0.028
+  },
+  "run04_baileaxe_sinarnes": {
+   "todos_14": 0.0616,
+   "piernas_6": 0.0899,
+   "brazos_6": 0.0533,
+   "tobillos_2": 0.1254,
+   "munecas_2": 0.1004,
+   "pelvis_1": 0.0036,
+   "cuadros": 2849,
+   "rmse_art_deg": 15.79,
+   "lag_s": -0.028
+  },
+  "run05_baileaxe_sinarnes": {
+   "todos_14": 0.0594,
+   "piernas_6": 0.083,
+   "brazos_6": 0.0551,
+   "tobillos_2": 0.1148,
+   "munecas_2": 0.1025,
+   "pelvis_1": 0.0037,
+   "cuadros": 2849,
+   "rmse_art_deg": 16.04,
+   "lag_s": -0.048
+  },
+  "run06_baileaxe_sinarnes": {
+   "todos_14": 0.0612,
+   "piernas_6": 0.0878,
+   "brazos_6": 0.0543,
+   "tobillos_2": 0.1227,
+   "munecas_2": 0.1013,
+   "pelvis_1": 0.0037,
+   "cuadros": 2849,
+   "rmse_art_deg": 15.79,
+   "lag_s": -0.046
+  },
+  "run07_baileaxe_sinarnes": {
+   "todos_14": 0.0611,
+   "piernas_6": 0.0876,
+   "brazos_6": 0.0543,
+   "tobillos_2": 0.1212,
+   "munecas_2": 0.1018,
+   "pelvis_1": 0.0037,
+   "cuadros": 2849,
+   "rmse_art_deg": 15.84,
+   "lag_s": -0.046
+  }
+ },
+ "banco": {
+  "sim2sim_baileaxe_r1": {
+   "todos_14": 0.0584,
+   "piernas_6": 0.0881,
+   "brazos_6": 0.0476,
+   "tobillos_2": 0.1173,
+   "munecas_2": 0.0909,
+   "pelvis_1": 0.0037,
+   "cuadros": 2849,
+   "rmse_art_deg": 16.01
+  },
+  "sim2sim_baileaxe_r2": {
+   "todos_14": 0.0585,
+   "piernas_6": 0.088,
+   "brazos_6": 0.0479,
+   "tobillos_2": 0.1172,
+   "munecas_2": 0.0914,
+   "pelvis_1": 0.0037,
+   "cuadros": 2849,
+   "rmse_art_deg": 16.02
+  },
+  "sim2sim_baileaxe_r3": {
+   "todos_14": 0.0584,
+   "piernas_6": 0.0882,
+   "brazos_6": 0.0474,
+   "tobillos_2": 0.1175,
+   "munecas_2": 0.0905,
+   "pelvis_1": 0.0037,
+   "cuadros": 2849,
+   "rmse_art_deg": 16.01
+  },
+  "sim2sim_tinkus_r1": {
+   "todos_14": 0.0629,
+   "piernas_6": 0.0885,
+   "brazos_6": 0.0573,
+   "tobillos_2": 0.1238,
+   "munecas_2": 0.1001,
+   "pelvis_1": 0.0061,
+   "cuadros": 1549,
+   "rmse_art_deg": 14.49
+  },
+  "sim2sim_tinkus_r2": {
+   "todos_14": 0.0618,
+   "piernas_6": 0.0865,
+   "brazos_6": 0.0568,
+   "tobillos_2": 0.1206,
+   "munecas_2": 0.0998,
+   "pelvis_1": 0.0059,
+   "cuadros": 1549,
+   "rmse_art_deg": 14.42
+  },
+  "sim2sim_tinkus_r3": {
+   "todos_14": 0.0622,
+   "piernas_6": 0.0873,
+   "brazos_6": 0.0569,
+   "tobillos_2": 0.1219,
+   "munecas_2": 0.1,
+   "pelvis_1": 0.006,
+   "cuadros": 1549,
+   "rmse_art_deg": 14.44
+  }
+ },
+ "validacion_fk_vs_referencia_mm": {
+  "baileaxe57": 0.0,
+  "bailetinkus30": 0.0
+ },
+ "media_hardware": {
+  "todos_14": [
+   0.061,
+   0.0009
+  ],
+  "piernas_6": [
+   0.0872,
+   0.0023
+  ],
+  "brazos_6": [
+   0.0546,
+   0.0012
+  ],
+  "tobillos_2": [
+   0.1214,
+   0.0035
+  ],
+  "munecas_2": [
+   0.1024,
+   0.0026
+  ],
+  "pelvis_1": [
+   0.0036,
+   0.0001
+  ],
+  "rmse_art_deg": [
+   15.8667,
+   0.1997
+  ]
+ },
+ "media_banco_baileaxe": {
+  "todos_14": [
+   0.0584,
+   0.0001
+  ],
+  "piernas_6": [
+   0.0881,
+   0.0001
+  ],
+  "brazos_6": [
+   0.0476,
+   0.0003
+  ],
+  "tobillos_2": [
+   0.1173,
+   0.0002
+  ],
+  "munecas_2": [
+   0.0909,
+   0.0005
+  ],
+  "pelvis_1": [
+   0.0037,
+   0.0
+  ],
+  "rmse_art_deg": [
+   16.0133,
+   0.0058
+  ]
+ },
+ "media_banco_tinkus": {
+  "todos_14": [
+   0.0623,
+   0.0006
+  ],
+  "piernas_6": [
+   0.0874,
+   0.001
+  ],
+  "brazos_6": [
+   0.057,
+   0.0003
+  ],
+  "tobillos_2": [
+   0.1221,
+   0.0016
+  ],
+  "munecas_2": [
+   0.1,
+   0.0002
+  ],
+  "pelvis_1": [
+   0.006,
+   0.0001
+  ],
+  "rmse_art_deg": [
+   14.45,
+   0.0361
+  ]
+ }
+}

@@ -1,0 +1,17 @@
+{
+  "run": "run04_baileaxe_sinarnes",
+  "complete": true,
+  "wall_start": "2026-07-31 16:24:28",
+  "duration_s": 86.08,
+  "samples": 88339,
+  "rate_hz": 1026.2,
+  "mode_machine": 5,
+  "max_abs_roll_deg": 16.5,
+  "max_abs_pitch_deg": 49.7,
+  "max_motor_temp_C": 73.0,
+  "any_motor_fault": false,
+  "capture_gaps_gt_50ms": 6,
+  "outcome": "success",
+  "condition": "no_harness",
+  "notes": "Completo el baile y volvio estable a Velocity. Sin arnes. Cabeceo maximo 49.7 grados, el mas alto de la sesion. Motores a 73 C al cerrar (subiendo: 64 -> 69 -> 73 en las tres corridas)."
+}

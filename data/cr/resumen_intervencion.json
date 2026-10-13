@@ -1,0 +1,301 @@
+{
+ "fuente": "calculado de int_sim_*.json, sim2sim_int_*.json e int_tb_curvas.json (cola crtrain, 2026-10-02/03)",
+ "bailemix57f": {
+  "run": "2026-10-02_19-07-42",
+  "ultima_iter_tb": 15000,
+  "tb": {
+   "1000": {
+    "error_body_pos": 0.224,
+    "error_joint_pos": 1.4055,
+    "ee_body_pos": 240.5998,
+    "mean_reward": 1.0495,
+    "mean_episode_length": 31.0056
+   },
+   "3000": {
+    "error_body_pos": 0.2269,
+    "error_joint_pos": 1.0221,
+    "ee_body_pos": 99.5806,
+    "mean_reward": 3.1783,
+    "mean_episode_length": 68.084
+   },
+   "6000": {
+    "error_body_pos": 0.2318,
+    "error_joint_pos": 0.9291,
+    "ee_body_pos": 100.6425,
+    "mean_reward": 3.5647,
+    "mean_episode_length": 64.9048
+   },
+   "15000": {
+    "error_body_pos": 0.2356,
+    "error_joint_pos": 0.8793,
+    "ee_body_pos": 93.8817,
+    "mean_reward": 4.1602,
+    "mean_episode_length": 68.6039
+   }
+  },
+  "sim_final": {
+   "checkpoint": "model_14999.pt",
+   "rmse_all_deg": 27.7,
+   "rmse_legs_deg": 25.22,
+   "rmse_waist_deg": 19.25,
+   "rmse_arms_deg": 31.06,
+   "error_body_pos_mean_m": 0.864,
+   "cuerpos_rel_ancla_m": {
+    "todos_14": 0.4969,
+    "piernas_6": 0.6735,
+    "brazos_6": 0.476,
+    "tobillos_2": 1.0494,
+    "munecas_2": 0.5696,
+    "pelvis_1": 0.0604
+   }
+  },
+  "sim_3000": {
+   "checkpoint": "model_3000.pt",
+   "rmse_all_deg": 30.19,
+   "rmse_legs_deg": 26.43,
+   "rmse_waist_deg": 22.66,
+   "rmse_arms_deg": 34.35,
+   "error_body_pos_mean_m": 0.868,
+   "cuerpos_rel_ancla_m": {
+    "todos_14": 0.5149,
+    "piernas_6": 0.6731,
+    "brazos_6": 0.5183,
+    "tobillos_2": 1.0588,
+    "munecas_2": 0.6456,
+    "pelvis_1": 0.06
+   }
+  },
+  "banco": {
+   "completas": "0/3",
+   "dur_mimic_s": [
+    3.24,
+    3.22,
+    3.22
+   ],
+   "salida": [
+    "Passive",
+    "Passive",
+    "Passive"
+   ],
+   "rmse_all_deg": [
+    18.22,
+    17.87,
+    17.96
+   ],
+   "rmse_all_deg_media": 18.02,
+   "rmse_all_deg_de": 0.18,
+   "rmse_legs_deg_media": 15.95,
+   "pitch_max_deg": [
+    57.8,
+    58.4,
+    57.9
+   ],
+   "altura_pelvis_min_post_m": [
+    0.063,
+    0.061,
+    0.061
+   ],
+   "criterio_completa": "la ultima transicion vuelve a Velocity (no a Passive); el campo caida de los JSON no es fiable",
+   "nota": "el RMSE de corridas que no completan cubre solo los segundos previos a la caida"
+  }
+ },
+ "bailemix57": {
+  "run": "2026-10-03_05-49-56",
+  "ultima_iter_tb": 7500,
+  "tb": {
+   "1000": {
+    "error_body_pos": 0.2242,
+    "error_joint_pos": 1.532,
+    "ee_body_pos": 265.4115,
+    "mean_reward": 0.895,
+    "mean_episode_length": 27.2915
+   },
+   "3000": {
+    "error_body_pos": 0.2235,
+    "error_joint_pos": 1.0776,
+    "ee_body_pos": 99.9779,
+    "mean_reward": 2.9953,
+    "mean_episode_length": 68.8111
+   },
+   "6000": {
+    "error_body_pos": 0.2299,
+    "error_joint_pos": 0.9728,
+    "ee_body_pos": 100.9338,
+    "mean_reward": 3.3448,
+    "mean_episode_length": 65.1344
+   },
+   "7500": {
+    "error_body_pos": 0.2316,
+    "error_joint_pos": 0.9444,
+    "ee_body_pos": 101.1827,
+    "mean_reward": 3.4732,
+    "mean_episode_length": 64.3481
+   }
+  },
+  "sim_final": {
+   "checkpoint": "model_7500.pt",
+   "rmse_all_deg": 29.13,
+   "rmse_legs_deg": 26.61,
+   "rmse_waist_deg": 26.34,
+   "rmse_arms_deg": 31.65,
+   "error_body_pos_mean_m": 0.858,
+   "cuerpos_rel_ancla_m": {
+    "todos_14": 0.507,
+    "piernas_6": 0.6886,
+    "brazos_6": 0.4841,
+    "tobillos_2": 1.0575,
+    "munecas_2": 0.5878,
+    "pelvis_1": 0.0617
+   }
+  },
+  "sim_3000": {
+   "checkpoint": "model_3000.pt",
+   "rmse_all_deg": 32.35,
+   "rmse_legs_deg": 28.42,
+   "rmse_waist_deg": 21.12,
+   "rmse_arms_deg": 37.15,
+   "error_body_pos_mean_m": 0.874,
+   "cuerpos_rel_ancla_m": {
+    "todos_14": 0.5151,
+    "piernas_6": 0.672,
+    "brazos_6": 0.5197,
+    "tobillos_2": 1.0405,
+    "munecas_2": 0.6375,
+    "pelvis_1": 0.0614
+   }
+  },
+  "banco": {
+   "completas": "0/3",
+   "dur_mimic_s": [
+    2.52,
+    2.46,
+    2.5
+   ],
+   "salida": [
+    "Passive",
+    "Passive",
+    "Passive"
+   ],
+   "rmse_all_deg": [
+    16.39,
+    16.05,
+    16.18
+   ],
+   "rmse_all_deg_media": 16.21,
+   "rmse_all_deg_de": 0.17,
+   "rmse_legs_deg_media": 15.36,
+   "pitch_max_deg": [
+    44.6,
+    21.6,
+    38.6
+   ],
+   "altura_pelvis_min_post_m": [
+    0.051,
+    0.075,
+    0.057
+   ],
+   "criterio_completa": "la ultima transicion vuelve a Velocity (no a Passive); el campo caida de los JSON no es fiable",
+   "nota": "el RMSE de corridas que no completan cubre solo los segundos previos a la caida"
+  },
+  "nota": "entrenamiento cortado en la iteracion 7823 por segfault de Python (exit 139); final = model_7500"
+ },
+ "baileaxe57f": {
+  "run": "2026-10-03_11-16-22",
+  "ultima_iter_tb": 15000,
+  "tb": {
+   "1000": {
+    "error_body_pos": 0.1084,
+    "error_joint_pos": 1.3435,
+    "ee_body_pos": 3.1813,
+    "mean_reward": 20.493,
+    "mean_episode_length": 435.0364
+   },
+   "3000": {
+    "error_body_pos": 0.1068,
+    "error_joint_pos": 0.8698,
+    "ee_body_pos": 0.8027,
+    "mean_reward": 29.3871,
+    "mean_episode_length": 481.8178
+   },
+   "6000": {
+    "error_body_pos": 0.1111,
+    "error_joint_pos": 0.8605,
+    "ee_body_pos": 0.5594,
+    "mean_reward": 30.9392,
+    "mean_episode_length": 488.194
+   },
+   "15000": {
+    "error_body_pos": 0.1096,
+    "error_joint_pos": 0.8106,
+    "ee_body_pos": 0.3508,
+    "mean_reward": 33.46,
+    "mean_episode_length": 492.4142
+   }
+  },
+  "sim_final": {
+   "checkpoint": "model_14999.pt",
+   "rmse_all_deg": 7.98,
+   "rmse_legs_deg": 9.17,
+   "rmse_waist_deg": 2.84,
+   "rmse_arms_deg": 7.62,
+   "error_body_pos_mean_m": 0.1,
+   "cuerpos_rel_ancla_m": {
+    "todos_14": 0.0326,
+    "piernas_6": 0.0499,
+    "brazos_6": 0.0256,
+    "tobillos_2": 0.088,
+    "munecas_2": 0.0375,
+    "pelvis_1": 0.0029
+   }
+  },
+  "sim_3000": {
+   "checkpoint": "model_3000.pt",
+   "rmse_all_deg": 9.09,
+   "rmse_legs_deg": 9.51,
+   "rmse_waist_deg": 3.41,
+   "rmse_arms_deg": 9.55,
+   "error_body_pos_mean_m": 0.103,
+   "cuerpos_rel_ancla_m": {
+    "todos_14": 0.0359,
+    "piernas_6": 0.0523,
+    "brazos_6": 0.031,
+    "tobillos_2": 0.0916,
+    "munecas_2": 0.0468,
+    "pelvis_1": 0.0032
+   }
+  },
+  "banco": {
+   "completas": "3/3",
+   "dur_mimic_s": [
+    56.98,
+    56.98,
+    56.98
+   ],
+   "salida": [
+    "Velocity",
+    "Velocity",
+    "Velocity"
+   ],
+   "rmse_all_deg": [
+    15.87,
+    15.76,
+    15.87
+   ],
+   "rmse_all_deg_media": 15.83,
+   "rmse_all_deg_de": 0.06,
+   "rmse_legs_deg_media": 21.52,
+   "pitch_max_deg": [
+    45.8,
+    45.8,
+    45.8
+   ],
+   "altura_pelvis_min_post_m": [
+    0.768,
+    0.768,
+    0.768
+   ],
+   "criterio_completa": "la ultima transicion vuelve a Velocity (no a Passive); el campo caida de los JSON no es fiable",
+   "nota": "el RMSE de corridas que no completan cubre solo los segundos previos a la caida"
+  }
+ }
+}

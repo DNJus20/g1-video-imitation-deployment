@@ -1,0 +1,16 @@
+[Unit]
+Description=G1 launcher (gatillo por combo para g1_ctrl) - solo lee el mando, no publica lowcmd
+After=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/unitree/g1_deploy/launcher
+Environment=LD_LIBRARY_PATH=/usr/local/lib
+ExecStart=/home/unitree/g1_deploy/launcher/build/g1_launcher eth0
+Restart=on-failure
+RestartSec=2
+StandardOutput=append:/home/unitree/g1launcher.log
+StandardError=append:/home/unitree/g1launcher.log
+
+[Install]
+WantedBy=default.target

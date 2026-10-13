@@ -1,0 +1,10 @@
+--- a/deploy/robots/g1/CMakeLists.txt
++++ b/deploy/robots/g1/CMakeLists.txt
+@@ -35,7 +35,6 @@
+   pthread
+   Boost::program_options
+   yaml-cpp
+-  fmt
+   ${ONNXRUNTIME_DIR}/lib/libonnxruntime.so.1.22.0
+   cnpy_lib
+   ZLIB::ZLIB

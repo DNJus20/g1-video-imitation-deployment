@@ -1,0 +1,16 @@
+{
+  "run": "run02_baileaxe_sinarnes",
+  "complete": true,
+  "wall_start": "2026-07-31 15:36:17",
+  "duration_s": 47.11,
+  "samples": 48976,
+  "rate_hz": 1039.7,
+  "mode_machine": 5,
+  "max_abs_roll_deg": 0.7,
+  "max_abs_pitch_deg": 1.0,
+  "max_motor_temp_C": 52.0,
+  "any_motor_fault": false,
+  "outcome": "TODO: success | fall | aborted",
+  "condition": "TODO: harness_loose | no_harness",
+  "notes": "TODO: incidencias, observaciones"
+}

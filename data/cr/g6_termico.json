@@ -1,0 +1,99 @@
+{
+  "fuente_limites": "unitree_sdk2 21d0a3b2c46e (2026-07-09) include/unitree/robot/g1/common/terminations.hpp:50-65",
+  "limites_C": {
+    "carcasa": 85.0,
+    "bobinado": 120.0
+  },
+  "corridas": {
+    "run01_baileaxe_arnes": {
+      "carcasa": {
+        "max_C": 50.0,
+        "motor": 24,
+        "articulacion": "right_shoulder_yaw_joint",
+        "pct_del_limite": 58.8
+      },
+      "bobinado": {
+        "max_C": 64.0,
+        "motor": 13,
+        "articulacion": "waist_roll_joint",
+        "pct_del_limite": 53.3
+      }
+    },
+    "run03_baileaxe_sinarnes": {
+      "carcasa": {
+        "max_C": 55.0,
+        "motor": 22,
+        "articulacion": "right_shoulder_pitch_joint",
+        "pct_del_limite": 64.7
+      },
+      "bobinado": {
+        "max_C": 69.0,
+        "motor": 10,
+        "articulacion": "right_ankle_pitch_joint",
+        "pct_del_limite": 57.5
+      }
+    },
+    "run04_baileaxe_sinarnes": {
+      "carcasa": {
+        "max_C": 57.0,
+        "motor": 23,
+        "articulacion": "right_shoulder_roll_joint",
+        "pct_del_limite": 67.1
+      },
+      "bobinado": {
+        "max_C": 73.0,
+        "motor": 4,
+        "articulacion": "left_ankle_pitch_joint",
+        "pct_del_limite": 60.8
+      }
+    },
+    "run05_baileaxe_sinarnes": {
+      "carcasa": {
+        "max_C": 58.0,
+        "motor": 23,
+        "articulacion": "right_shoulder_roll_joint",
+        "pct_del_limite": 68.2
+      },
+      "bobinado": {
+        "max_C": 75.0,
+        "motor": 13,
+        "articulacion": "waist_roll_joint",
+        "pct_del_limite": 62.5
+      }
+    },
+    "run06_baileaxe_sinarnes": {
+      "carcasa": {
+        "max_C": 59.0,
+        "motor": 23,
+        "articulacion": "right_shoulder_roll_joint",
+        "pct_del_limite": 69.4
+      },
+      "bobinado": {
+        "max_C": 77.0,
+        "motor": 13,
+        "articulacion": "waist_roll_joint",
+        "pct_del_limite": 64.2
+      }
+    },
+    "run07_baileaxe_sinarnes": {
+      "carcasa": {
+        "max_C": 61.0,
+        "motor": 23,
+        "articulacion": "right_shoulder_roll_joint",
+        "pct_del_limite": 71.8
+      },
+      "bobinado": {
+        "max_C": 80.0,
+        "motor": 13,
+        "articulacion": "waist_roll_joint",
+        "pct_del_limite": 66.7
+      }
+    }
+  },
+  "pico_sesion": {
+    "max_C": 80.0,
+    "motor": 13,
+    "articulacion": "waist_roll_joint",
+    "pct_del_limite": 66.7
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "run": "run00_prueba",
+  "complete": true,
+  "wall_start": "2026-07-31 15:08:46",
+  "duration_s": 7.89,
+  "samples": 8219,
+  "rate_hz": 1041.8,
+  "mode_machine": 5,
+  "max_abs_roll_deg": 2.7,
+  "max_abs_pitch_deg": 11.9,
+  "max_motor_temp_C": 47.0,
+  "any_motor_fault": false,
+  "outcome": "aborted",
+  "condition": "harness_loose",
+  "notes": "NO es una corrida del protocolo: preflight de 30 s (robot colgado, solo FixStand, sin baile). Abortada porque la controladora .161 dejo de publicar a los 7.89 s. Se conserva como EVIDENCIA del failsafe por perdida de comunicaciones: el controlador transiciono FixStand->Passive por timeout. Excluida de la Tabla I."
+}

@@ -1,0 +1,27 @@
+{
+  "n_joints": 29,
+  "n_envs": 16,
+  "n_steps": 2849,
+  "checkpoint": "/workspace/unitree_rl_mjlab/logs/rsl_rl/g1_tracking/2026-10-03_11-16-22/model_3000.pt",
+  "motion": "/workspace/unitree_rl_mjlab/src/assets/motions/g1/baileaxe57f.npz",
+  "error_joint_pos_mean_L2": 0.8183591716454379,
+  "error_joint_pos_final_L2": 0.7769193828105927,
+  "error_body_pos_mean_m": 0.1033991735517487,
+  "rmse_all_rad": 0.15864741802215576,
+  "rmse_all_deg": 9.089826583862305,
+  "rmse_legs_rad": 0.16598954796791077,
+  "rmse_legs_deg": 9.510499954223633,
+  "rmse_waist_rad": 0.05943046882748604,
+  "rmse_waist_deg": 3.4051148891448975,
+  "rmse_arms_rad": 0.16662077605724335,
+  "rmse_arms_deg": 9.546667098999023,
+  "cuerpos_rel_ancla_m": {
+    "todos_14": 0.0359,
+    "piernas_6": 0.0523,
+    "brazos_6": 0.031,
+    "tobillos_2": 0.0916,
+    "munecas_2": 0.0468,
+    "pelvis_1": 0.0032
+  },
+  "rmse_from_L2_mean_rad": 0.15196548312899164
+}

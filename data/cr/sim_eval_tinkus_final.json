@@ -1,0 +1,19 @@
+{
+  "n_joints": 29,
+  "n_envs": 16,
+  "n_steps": 1549,
+  "checkpoint": "/workspace/unitree_rl_mjlab/logs/rsl_rl/g1_tracking/2026-09-08_17-04-34/model_14999.pt",
+  "motion": "/workspace/unitree_rl_mjlab/src/assets/motions/g1/bailetinkus30.npz",
+  "error_joint_pos_mean_L2": 0.8562388291968462,
+  "error_joint_pos_final_L2": 0.7762470865249633,
+  "error_body_pos_mean_m": 0.1176629860009433,
+  "rmse_all_rad": 0.16732186079025269,
+  "rmse_all_deg": 9.586835861206055,
+  "rmse_legs_rad": 0.1568431258201599,
+  "rmse_legs_deg": 8.986448287963867,
+  "rmse_waist_rad": 0.09306313842535019,
+  "rmse_waist_deg": 5.332124710083008,
+  "rmse_arms_rad": 0.18722066283226013,
+  "rmse_arms_deg": 10.726953506469727,
+  "rmse_from_L2_mean_rad": 0.15899955894803133
+}

@@ -1,0 +1,238 @@
+{
+ "fuente": "calculado de int_sim_*57g_*.json, sim2sim_int_*57g_r*.json e intg_tb_curvas.json (cola crtrain_g, 2026-10-05/06); evaluacion automatica post_cola_g.sh, FIN 2026-10-06T15:06:51Z",
+ "bailemix57g": {
+  "run": "2026-10-05_16-52-31",
+  "ultima_iter_tb": 15000,
+  "tb": {
+   "1000": {
+    "error_body_pos": 0.135,
+    "error_joint_pos": 1.9418,
+    "ee_body_pos": 9.3142,
+    "mean_reward": 12.8793,
+    "mean_episode_length": 338.1081
+   },
+   "3000": {
+    "error_body_pos": 0.0808,
+    "error_joint_pos": 1.0487,
+    "ee_body_pos": 1.8944,
+    "mean_reward": 23.9354,
+    "mean_episode_length": 455.5412
+   },
+   "6000": {
+    "error_body_pos": 0.0707,
+    "error_joint_pos": 0.9353,
+    "ee_body_pos": 1.0692,
+    "mean_reward": 27.7271,
+    "mean_episode_length": 475.0314
+   },
+   "15000": {
+    "error_body_pos": 0.0623,
+    "error_joint_pos": 0.7143,
+    "ee_body_pos": 0.6129,
+    "mean_reward": 31.1608,
+    "mean_episode_length": 484.9621
+   }
+  },
+  "sim_final": {
+   "checkpoint": "model_14999.pt",
+   "rmse_all_deg": 8.23,
+   "rmse_legs_deg": 7.1,
+   "rmse_waist_deg": 4.15,
+   "rmse_arms_deg": 9.66,
+   "error_body_pos_mean_m": 0.0571,
+   "cuerpos_rel_ancla_m": {
+    "todos_14": 0.0354,
+    "piernas_6": 0.0481,
+    "brazos_6": 0.0339,
+    "tobillos_2": 0.0784,
+    "munecas_2": 0.0511,
+    "pelvis_1": 0.0034
+   }
+  },
+  "sim_3000": {
+   "checkpoint": "model_3000.pt",
+   "rmse_all_deg": 16.11,
+   "rmse_legs_deg": 11.91,
+   "rmse_waist_deg": 9.81,
+   "rmse_arms_deg": 19.89,
+   "error_body_pos_mean_m": 0.1526,
+   "cuerpos_rel_ancla_m": {
+    "todos_14": 0.1052,
+    "piernas_6": 0.1374,
+    "brazos_6": 0.1061,
+    "tobillos_2": 0.2198,
+    "munecas_2": 0.143,
+    "pelvis_1": 0.0116
+   }
+  },
+  "banco": {
+   "completas": "3/3",
+   "dur_mimic_s": [
+    56.98,
+    56.98,
+    56.98
+   ],
+   "salida": [
+    "Velocity",
+    "Velocity",
+    "Velocity"
+   ],
+   "rmse_all_deg": [
+    13.15,
+    13.19,
+    13.08
+   ],
+   "rmse_all_deg_media": 13.14,
+   "rmse_all_deg_de": 0.06,
+   "rmse_legs_deg_media": 15.13,
+   "rmse_arms_deg_media": 12.46,
+   "pitch_max_deg": [
+    49.4,
+    50.9,
+    46.9
+   ],
+   "roll_max_deg": [
+    28.4,
+    27.2,
+    27.5
+   ],
+   "altura_pelvis_min_m": [
+    0.632,
+    0.666,
+    0.655
+   ],
+   "altura_pelvis_min_post_m": [
+    0.741,
+    0.736,
+    0.731
+   ],
+   "criterio_completa": "la ultima transicion vuelve a Velocity (no a Passive) y dur_mimic = 56,98 s"
+  }
+ },
+ "baileaxe57g": {
+  "run": "2026-10-06_04-02-16",
+  "ultima_iter_tb": 15000,
+  "tb": {
+   "1000": {
+    "error_body_pos": 0.0599,
+    "error_joint_pos": 1.0401,
+    "ee_body_pos": 4.2644,
+    "mean_reward": 24.5795,
+    "mean_episode_length": 399.5644
+   },
+   "3000": {
+    "error_body_pos": 0.0513,
+    "error_joint_pos": 0.7367,
+    "ee_body_pos": 1.704,
+    "mean_reward": 31.8239,
+    "mean_episode_length": 454.0285
+   },
+   "6000": {
+    "error_body_pos": 0.0488,
+    "error_joint_pos": 0.7147,
+    "ee_body_pos": 1.225,
+    "mean_reward": 33.7117,
+    "mean_episode_length": 466.3084
+   },
+   "15000": {
+    "error_body_pos": 0.0441,
+    "error_joint_pos": 0.6117,
+    "ee_body_pos": 0.2542,
+    "mean_reward": 36.8841,
+    "mean_episode_length": 493.5374
+   }
+  },
+  "sim_final": {
+   "checkpoint": "model_14999.pt",
+   "rmse_all_deg": 7.53,
+   "rmse_legs_deg": 6.79,
+   "rmse_waist_deg": 3.31,
+   "rmse_arms_deg": 8.69,
+   "error_body_pos_mean_m": 0.0443,
+   "cuerpos_rel_ancla_m": {
+    "todos_14": 0.0316,
+    "piernas_6": 0.0466,
+    "brazos_6": 0.0266,
+    "tobillos_2": 0.0799,
+    "munecas_2": 0.0401,
+    "pelvis_1": 0.0031
+   }
+  },
+  "sim_3000": {
+   "checkpoint": "model_3000.pt",
+   "rmse_all_deg": 9.85,
+   "rmse_legs_deg": 8.4,
+   "rmse_waist_deg": 4.61,
+   "rmse_arms_deg": 11.66,
+   "error_body_pos_mean_m": 0.0546,
+   "cuerpos_rel_ancla_m": {
+    "todos_14": 0.0418,
+    "piernas_6": 0.0569,
+    "brazos_6": 0.0399,
+    "tobillos_2": 0.0968,
+    "munecas_2": 0.0632,
+    "pelvis_1": 0.004
+   }
+  },
+  "banco": {
+   "completas": "3/3",
+   "dur_mimic_s": [
+    56.98,
+    56.98,
+    56.98
+   ],
+   "salida": [
+    "Velocity",
+    "Velocity",
+    "Velocity"
+   ],
+   "rmse_all_deg": [
+    14.1,
+    14.02,
+    14.09
+   ],
+   "rmse_all_deg_media": 14.07,
+   "rmse_all_deg_de": 0.04,
+   "rmse_legs_deg_media": 17.56,
+   "rmse_arms_deg_media": 11.92,
+   "pitch_max_deg": [
+    46.0,
+    46.7,
+    49.1
+   ],
+   "roll_max_deg": [
+    17.0,
+    17.7,
+    15.6
+   ],
+   "altura_pelvis_min_m": [
+    0.685,
+    0.683,
+    0.686
+   ],
+   "altura_pelvis_min_post_m": [
+    0.748,
+    0.77,
+    0.756
+   ],
+   "criterio_completa": "la ultima transicion vuelve a Velocity (no a Passive) y dur_mimic = 56,98 s"
+  }
+ },
+ "veredicto_preregistrado": {
+  "bailemix57g": {
+   "ee_body_pos_15000": 0.6129,
+   "episodio_medio_15000": 484.9621,
+   "banco_completas": "3/3",
+   "confirma": true,
+   "refuta": false
+  },
+  "baileaxe57g_control": {
+   "ee_body_pos_15000": 0.2542,
+   "episodio_medio_15000": 493.5374,
+   "rmse_sim_deg": 7.53,
+   "referencia_deg": 8.39,
+   "dif_deg": -0.86,
+   "cumple": true
+  }
+ }
+}

@@ -1,0 +1,120 @@
+{
+ "bailemix57g": {
+  "cuadros": [
+   2849,
+   2849
+  ],
+  "dif_max_joint_pos_rad": 0.0,
+  "dif_max_body_quat": 0.0,
+  "dif_max_body_xy_m": 0.0,
+  "dif_z_no_rigida_max_m": 2.980232238769531e-07,
+  "bajada_z_m": {
+   "media": 0.114,
+   "max": 0.23
+  },
+  "salto_art_max_rad": 0.884,
+  "suela_antes": {
+   "media": 0.142,
+   "p95": 0.262,
+   "max": 0.443,
+   "min": -0.011,
+   "frac_gt_0p10": 0.664,
+   "frac_gt_0p25": 0.075,
+   "media_por_5s": [
+    0.03,
+    0.02,
+    0.09,
+    0.15,
+    0.25,
+    0.22,
+    0.16,
+    0.21,
+    0.2,
+    0.19,
+    0.09,
+    0.0
+   ]
+  },
+  "suela_despues": {
+   "media": 0.027,
+   "p95": 0.06,
+   "max": 0.246,
+   "min": -0.0,
+   "frac_gt_0p10": 0.011,
+   "frac_gt_0p25": 0.0,
+   "media_por_5s": [
+    0.02,
+    0.02,
+    0.03,
+    0.03,
+    0.04,
+    0.03,
+    0.02,
+    0.03,
+    0.04,
+    0.02,
+    0.03,
+    0.01
+   ]
+  }
+ },
+ "baileaxe57g": {
+  "cuadros": [
+   2849,
+   2849
+  ],
+  "dif_max_joint_pos_rad": 0.0,
+  "dif_max_body_quat": 0.0,
+  "dif_max_body_xy_m": 0.0,
+  "dif_z_no_rigida_max_m": 3.5762786865234375e-07,
+  "bajada_z_m": {
+   "media": 0.083,
+   "max": 0.193
+  },
+  "salto_art_max_rad": 0.954,
+  "suela_antes": {
+   "media": 0.107,
+   "p95": 0.194,
+   "max": 0.234,
+   "min": -0.0247,
+   "frac_gt_0p10": 0.524,
+   "frac_gt_0p25": 0.0,
+   "media_por_5s": [
+    0.01,
+    0.03,
+    0.03,
+    0.11,
+    0.09,
+    0.08,
+    0.11,
+    0.17,
+    0.18,
+    0.18,
+    0.19,
+    0.13
+   ]
+  },
+  "suela_despues": {
+   "media": 0.024,
+   "p95": 0.048,
+   "max": 0.093,
+   "min": -0.0,
+   "frac_gt_0p10": 0.0,
+   "frac_gt_0p25": 0.0,
+   "media_por_5s": [
+    0.02,
+    0.02,
+    0.03,
+    0.03,
+    0.02,
+    0.02,
+    0.03,
+    0.02,
+    0.02,
+    0.03,
+    0.03,
+    0.02
+   ]
+  }
+ }
+}

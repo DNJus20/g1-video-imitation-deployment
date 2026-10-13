@@ -1,0 +1,23 @@
+{
+  "run": "run_lab01_baileaxe",
+  "complete": true,
+  "logger": "lowstate_logger (C++ en el Jetson, DDS interno eth0, sin cable externo)",
+  "wall_start": "2026-10-13 05:15:38",
+  "duration_s": 264.01,
+  "samples": 275005,
+  "rate_hz": 1041.7,
+  "rate_hz_wall": 1041.7,
+  "mode_machine": 5,
+  "max_abs_roll_deg": 15.5,
+  "max_abs_pitch_deg": 46.9,
+  "max_motor_temp_C": 68,
+  "max_casing_C_idx0": 52,
+  "max_winding_C_idx1": 68,
+  "imu_temp_C_max": 79,
+  "any_motor_fault": false,
+  "capture_gaps_gt_50ms": 0,
+  "n_mode0_max": 29,
+  "outcome": "success",
+  "condition": "harness",
+  "notes": "Nuestro deploy restaurado (g1_ctrl + launcher), mando, PC1 nueva, sin cable externo, logger nativo en Jetson"
+}

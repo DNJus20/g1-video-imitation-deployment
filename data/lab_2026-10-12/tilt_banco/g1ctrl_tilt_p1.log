@@ -1,0 +1,27 @@
+1791852354.316419 [0]    g1_ctrl: selected interface "lo" is not multicast-capable: disabling multicast
+ --- Unitree Robotics --- 
+     G1-29dof Controller 
+[2026-10-13 00:45:54.619] [info] Waiting for connection to robot...
+[2026-10-13 00:45:56.623] [warning] Waiting for connection rt/lowstate
+[2026-10-13 00:45:58.125] [info] Connected rt/lowstate
+[2026-10-13 00:45:58.126] [info] Connected to robot.
+[2026-10-13 00:45:58.226] [info] Initializing State_Passive ...
+[2026-10-13 00:45:58.226] [info] Initializing State_FixStand ...
+[2026-10-13 00:45:58.226] [info] Initializing State_Velocity ...
+[2026-10-13 00:45:58.226] [info] Policy directory: /workspace/unitree_rl_mjlab/deploy/robots/g1/config/policy/velocity/v0
+[2026-10-13 00:45:58.248] [info] Initializing State_Mimic_Dance1_subject2 ...
+[2026-10-13 00:45:58.248] [info] Policy directory: /workspace/unitree_rl_mjlab/deploy/robots/g1/config/policy/mimic/dance1_subject2/
+[2026-10-13 00:45:58.275] [info] Loaded motion file 'dance1_subject2' with duration 131.48s
+[2026-10-13 00:45:58.277] [info] Initializing State_Mimic_Baileaxe ...
+[2026-10-13 00:45:58.277] [info] Policy directory: /workspace/unitree_rl_mjlab/deploy/robots/g1/config/policy/mimic/baileaxe/
+[2026-10-13 00:45:58.291] [info] Loaded motion file 'baileaxe57' with duration 56.98s
+[2026-10-13 00:45:58.296] [info] Initializing State_Mimic_Tinkus ...
+[2026-10-13 00:45:58.296] [info] Policy directory: /workspace/unitree_rl_mjlab/deploy/robots/g1/config/policy/mimic/tinkus/
+[2026-10-13 00:45:58.303] [info] Loaded motion file 'bailetinkus30' with duration 30.98s
+[2026-10-13 00:45:58.315] [info] FSM: Start Passive
+Press [L2 + Up] to enter FixStand mode.
+And then press [R2 + A] to start controlling the robot.
+And then press [R1 + A/B/Y/X] to control the robot dance.
+[2026-10-13 00:46:03.475] [info] FSM: Change state from Passive to FixStand
+[2026-10-13 00:46:07.474] [info] FSM: Change state from FixStand to Velocity
+[2026-10-13 00:46:20.835] [info] FSM: Change state from Velocity to Passive

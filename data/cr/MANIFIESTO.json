@@ -1,0 +1,1020 @@
+{
+ "G1": {
+  "estado": "ok",
+  "archivos": [
+   {
+    "ruta": "data/cr/motion_stats.json",
+    "bytes": 3455,
+    "sha256": "747eca9caa6d6940fd6ad579ef5a4f37a4ce8839e50fc6405bd579eb590cd1af"
+   },
+   {
+    "ruta": "data/cr/logs/motion_stats.log",
+    "bytes": 456,
+    "sha256": "26d78fa8d9fbf68dba9077c2e6813cd75d99ca137ebac32700eaa39d78234e4b"
+   },
+   {
+    "ruta": "analysis/cr_gpu/motion_stats.py",
+    "bytes": 2508,
+    "sha256": "df32c58115cd21a3577a79c23e3c8bfc7e24f818e682c3d54f4da3a99ed85d26"
+   },
+   {
+    "ruta": "analysis/cr_gpu/lote_cr.sh",
+    "bytes": 2692,
+    "sha256": "18200d1356e1c82f0d5cef2b85ce1d0b6f64d6ce96f1499cd82c0712923de9f8"
+   }
+  ],
+  "resumen": "Segundo movimiento = bailetinkus30 (ya entrenado 2026-09-08, 15 000 iter, misma config que la desplegada; reuso autorizado por el usuario, sin entrenar). Es el mas dinamico de los disponibles: lateral 1,18 m, vertical 0,49 m, pelvis 1,58 m/s, brazos p95 6,39 rad/s; 0 saltos >0,5 rad."
+ },
+ "G2": {
+  "estado": "ok",
+  "archivos": [
+   {
+    "ruta": "data/cr/tb_metricas.json",
+    "bytes": 8009,
+    "sha256": "0e14e8a7e3b3a24b93a0acea37e9ed0e67ecfe0fa19939b445cdf3d10db23130"
+   },
+   {
+    "ruta": "data/cr/sim_eval_baileaxe_3000.json",
+    "bytes": 748,
+    "sha256": "7842431023b40fd0a71fa5d6e0369dda258f76fd6833d8d08d3f1569a3b9f8d4"
+   },
+   {
+    "ruta": "data/cr/sim_eval_bailemix_3000.json",
+    "bytes": 742,
+    "sha256": "d2172fc82359e20a1752a2bf6c2cb9f657f418f68c55a3d6cc8162f658e42cd8"
+   },
+   {
+    "ruta": "data/cr/sim_eval_tinkus_3000.json",
+    "bytes": 747,
+    "sha256": "236b32a3862aa447aed91e7324f7e2d989f7da81bbb8f31e5b3fed4c31f29406"
+   },
+   {
+    "ruta": "data/cr/logs/tb_extract.log",
+    "bytes": 901,
+    "sha256": "86325a2114212bd96079fe05ed451caaeeb67744d079461081579e58eef99af4"
+   },
+   {
+    "ruta": "data/cr/logs/sim_eval_baileaxe_3000.log",
+    "bytes": 10765,
+    "sha256": "82f0301ba895e5cf9bb064b7ccb010762c17d8208b5063c1936d33433538ab8c"
+   },
+   {
+    "ruta": "data/cr/logs/sim_eval_bailemix_3000.log",
+    "bytes": 10759,
+    "sha256": "ddbb1512d8947212b486210000223251241d71cf9e41c32f04e8a3868a7c4f5d"
+   },
+   {
+    "ruta": "data/cr/logs/sim_eval_tinkus_3000.log",
+    "bytes": 10730,
+    "sha256": "ccde836c6b8ec745b57349e0acc117bed8a58070accec0fa3292d017545d86f9"
+   },
+   {
+    "ruta": "analysis/cr_gpu/tb_extract.py",
+    "bytes": 2265,
+    "sha256": "a500d1db38565c437d03a6482637a4ed5bbc8c6ed8667c742bfa1fe33fc2935a"
+   }
+  ],
+  "resumen": "Sin entrenar. (a) baileaxe57 nunca tuvo filtro: la politica final YA es la version sin filtrar; el intento no convergido es bailemix57 (log conservado, 3040 iter). (b) La config es la por defecto del repo (1425b15); solo difieren num_envs=8192 y max_iterations=15000 por linea de comandos."
+ },
+ "G3": {
+  "estado": "ok",
+  "archivos": [
+   {
+    "ruta": "data/cr/sim_eval_baileaxe_final.json",
+    "bytes": 746,
+    "sha256": "87e197d7b1f1bdb182bb759d0ff02416cca45a977d3fcb9eaa704698fe382a5c"
+   },
+   {
+    "ruta": "data/cr/sim_eval_tinkus_final.json",
+    "bytes": 750,
+    "sha256": "24675d7cf020145ac483eb5e71c601a3a1b53b351c201713ece380a7b653f53f"
+   },
+   {
+    "ruta": "data/cr/logs/sim_eval_baileaxe_final.log",
+    "bytes": 10764,
+    "sha256": "982cec44f7d49a580676ace49e9ad60100fa1f8479debc9bcf44b764b4970fa7"
+   },
+   {
+    "ruta": "data/cr/logs/sim_eval_tinkus_final.log",
+    "bytes": 10734,
+    "sha256": "ffffab853c9a1865bb4d1d28c7ae7bc3935c7361d0e0809f35738f406cb27f4b"
+   },
+   {
+    "ruta": "data/cr/resumen_cr.json",
+    "bytes": 3447,
+    "sha256": "e77a7db91f2b17635cef114453d583483179cb0e2df1ee7ee6c5d3186827663e"
+   },
+   {
+    "ruta": "analysis/cr_gpu/eval_sim_cr.py",
+    "bytes": 3167,
+    "sha256": "517c571d35b65f4d39925fcd666a25376e55c5ddfec59f574e02178a78612d91"
+   }
+  ],
+  "resumen": "Simulador de entrenamiento (misma metrica que sim_eval_baileaxe.json): tinkus 9,59 grados, baileaxe 8,38 (reproduce el valor previo). Falta la medida en hardware de tinkus para la brecha."
+ },
+ "G4": {
+  "estado": "ok",
+  "archivos": [
+   {
+    "ruta": "data/cr/sim2sim_baileaxe_r1.json",
+    "bytes": 844,
+    "sha256": "4e9e1d9509140f6d3e6736b7988b18d9b5dbe272cec48f4e1ba20f32fb2c98f1"
+   },
+   {
+    "ruta": "data/cr/sim2sim_baileaxe_r2.json",
+    "bytes": 838,
+    "sha256": "c51576e90165436ee47faa9393314c35c0dd7cb6f2b70f11046e71ea75e43a12"
+   },
+   {
+    "ruta": "data/cr/sim2sim_baileaxe_r3.json",
+    "bytes": 843,
+    "sha256": "f0bed2b2ceaf75b80ab7d1f229f4c115d18b2b5298ebc2e75cf06c8e4bc47dcf"
+   },
+   {
+    "ruta": "data/cr/sim2sim_tinkus_r1.json",
+    "bytes": 832,
+    "sha256": "20b95ec5e8f61ff5bd9fad02ebd1e6baa6b2cad5c4cb1387c66f39b28f402ff4"
+   },
+   {
+    "ruta": "data/cr/sim2sim_tinkus_r2.json",
+    "bytes": 838,
+    "sha256": "c103475684ba266c73e637bf569558719692797c2e7d4abe72ddb73e37f47c38"
+   },
+   {
+    "ruta": "data/cr/sim2sim_tinkus_r3.json",
+    "bytes": 836,
+    "sha256": "d2295e3dfef6478f40b6d22b85898f8ea61b9a8e5b02fc72c412d226959109fe"
+   },
+   {
+    "ruta": "data/cr/sim2sim/sim2sim_baileaxe_r1.npz",
+    "bytes": 1359392,
+    "sha256": "3fb8cd17675b25091fb604a534d8f7c450a58e17a363fbfff512f9063a954eca"
+   },
+   {
+    "ruta": "data/cr/sim2sim/sim2sim_baileaxe_r2.npz",
+    "bytes": 1357197,
+    "sha256": "14b75add62fbb6107ff617dd77485c1bd75ce4341bfe36f9130ba9e1c8787b5d"
+   },
+   {
+    "ruta": "data/cr/sim2sim/sim2sim_baileaxe_r3.npz",
+    "bytes": 1357762,
+    "sha256": "521bfc50998a38fff803a750ae89617cb30575f18fe9d08a9d7f3d07c5ed2584"
+   },
+   {
+    "ruta": "data/cr/sim2sim/sim2sim_tinkus_r1.npz",
+    "bytes": 874013,
+    "sha256": "d5bf9af6593de79d519ff5255d639985f69151b42479babfd2937088e6630398"
+   },
+   {
+    "ruta": "data/cr/sim2sim/sim2sim_tinkus_r2.npz",
+    "bytes": 873862,
+    "sha256": "bc2314318f0a7414b5365a25336281204692f039b65b06040cd1fe15bef5e2cc"
+   },
+   {
+    "ruta": "data/cr/sim2sim/sim2sim_tinkus_r3.npz",
+    "bytes": 874245,
+    "sha256": "c60e955f369fada7fd17eba9a34828b020bb16fd4a62cbd1d5ed55012b7c8afd"
+   },
+   {
+    "ruta": "data/cr/logs/g1ctrl_baileaxe_r1.log",
+    "bytes": 1831,
+    "sha256": "0a5dc3cb16ea8b1b38ee0a35c2bf28fbea0f04e182f0c3b5bb4f169ad5c38920"
+   },
+   {
+    "ruta": "data/cr/logs/g1ctrl_baileaxe_r2.log",
+    "bytes": 1831,
+    "sha256": "029d555a35d141e3425e6c4dbf3dfc4a2c2aac358b68438175d7bed3de3cb0ce"
+   },
+   {
+    "ruta": "data/cr/logs/g1ctrl_baileaxe_r3.log",
+    "bytes": 1831,
+    "sha256": "00f81c2fa5b51de837551bf60203f5880ab5a3cc05739ff172bbbf159ea6905f"
+   },
+   {
+    "ruta": "data/cr/logs/g1ctrl_tinkus_r1.log",
+    "bytes": 2109,
+    "sha256": "4abe4866e66df3c0a6d6c83434da24ec0b79a971227a13a415ad1144234bd65d"
+   },
+   {
+    "ruta": "data/cr/logs/g1ctrl_tinkus_r2.log",
+    "bytes": 2109,
+    "sha256": "7a7cf012b675f34eb702d2501e6d67a3e02c58c03ab74f8fc156b35404251abf"
+   },
+   {
+    "ruta": "data/cr/logs/g1ctrl_tinkus_r3.log",
+    "bytes": 2109,
+    "sha256": "a2182596c7bf1d85d88c7bebba16b9fd9711edbfe74044c571478e256103ea12"
+   },
+   {
+    "ruta": "data/cr/logs/bridge_baileaxe_r1.log",
+    "bytes": 186,
+    "sha256": "09f0f816a0bcf023657075aee9833eefa0353c56df0e20091eb4cc046c731a39"
+   },
+   {
+    "ruta": "data/cr/logs/bridge_baileaxe_r2.log",
+    "bytes": 186,
+    "sha256": "d81d69a9fb33599bef54358f2115d79ee2cc28c8fd5fd1e036f9dd99cd83bd5f"
+   },
+   {
+    "ruta": "data/cr/logs/bridge_baileaxe_r3.log",
+    "bytes": 186,
+    "sha256": "399479f9ad64bee0a586af7ad9f9fd64c16a43e414998aac86ece8467678be5b"
+   },
+   {
+    "ruta": "data/cr/logs/bridge_tinkus_r1.log",
+    "bytes": 184,
+    "sha256": "9c0ab4c2cf6eeb58b16ed48b4fb9bb0f82dcef3e408f75623ec5a5c50ab097e2"
+   },
+   {
+    "ruta": "data/cr/logs/bridge_tinkus_r2.log",
+    "bytes": 184,
+    "sha256": "7eb760884e085e01de28dbee1d6d9edb7a793e3c8e26f338e5a7baef06bc70fe"
+   },
+   {
+    "ruta": "data/cr/logs/bridge_tinkus_r3.log",
+    "bytes": 184,
+    "sha256": "8e2531d355cae8ec88505b1c041cbff20757c835e63cf1543cbd6fc00d37f069"
+   },
+   {
+    "ruta": "data/cr/logs/sim2sim_eval.log",
+    "bytes": 3377,
+    "sha256": "134554ac0dc1a58c9defd09a77757c89f77f6f9f7feaa8ed77f4e409bc73f149"
+   },
+   {
+    "ruta": "data/cr/logs/sim2sim_runs.log",
+    "bytes": 306,
+    "sha256": "9a03eb27af65721ae00dbd29f98e7eed80ebcb0be59c85b7be7a3689ce03dce0"
+   },
+   {
+    "ruta": "analysis/cr_gpu/sim2sim_bridge.py",
+    "bytes": 6114,
+    "sha256": "d63b71955981224a8d0b55bc8607e4706068a242ad2863283304fbd4f0fc90c7"
+   },
+   {
+    "ruta": "analysis/cr_gpu/sim2sim_run.sh",
+    "bytes": 1093,
+    "sha256": "73cc04812bbcfa25acb920057655dc3f616078916e4cb800df815b1dd612f3d0"
+   },
+   {
+    "ruta": "analysis/cr_gpu/sim2sim_eval.py",
+    "bytes": 2715,
+    "sha256": "d43a63fdebaeaf3bd1b15a089e67876a51f7bfd93e2ca392e098f22f5bfe1b01"
+   },
+   {
+    "ruta": "analysis/cr_gpu/sandbox.sh",
+    "bytes": 1554,
+    "sha256": "cae41dade55048e7a72043b702576d98a2f242aa1c1821aa60875fc81d261006"
+   },
+   {
+    "ruta": "analysis/cr_gpu/lote_cr.sh",
+    "bytes": 2692,
+    "sha256": "18200d1356e1c82f0d5cef2b85ce1d0b6f64d6ce96f1499cd82c0712923de9f8"
+   },
+   {
+    "ruta": "analysis/cr_gpu/lote_cr_g4b.sh",
+    "bytes": 774,
+    "sha256": "0bbce8251420970d645d38c6a7aa344891f7c028321cb8630e036ae7b7ba117a"
+   }
+  ],
+  "resumen": "Binario g1_ctrl + MuJoCo, 3 repeticiones: tinkus 3/3 completa sin caida, RMSE 14,42 +- 0,10 grados; control baileaxe 3/3, 15,99 +- 0,06 (hardware 15,85). Compuertas G1-G4 pasan; aviso: cabeceo max 54,5 grados vs damping 57,3."
+ },
+ "G5": {
+  "estado": "ok",
+  "archivos": [
+   {
+    "ruta": "data/cr/g5_config.txt",
+    "bytes": 5866,
+    "sha256": "fa625b4a6d090de60558e4a9df11c5d3111db92574d21f44341cd75702cb60d5"
+   },
+   {
+    "ruta": "data/cr/logs/g5.log",
+    "bytes": 20,
+    "sha256": "d4b0da0192bbcb9aa48f1d1ba70d546a310aa635aa5d1d821694d89ced307ee8"
+   },
+   {
+    "ruta": "analysis/cr_gpu/g5_config.sh",
+    "bytes": 3573,
+    "sha256": "82450952ab8b8f0c9da934e69809bb52c1219b5cf82d0432fd86482dbabda76d"
+   }
+  ],
+  "resumen": "Paso de control 0,02 s (decimation 4 x 0,005; step_dt 0,02; lazo binario 1 kHz). Config = defecto del repo. Primer intento: bailemix57 (2026-07-22_17-19-12). Tarea = reimplementacion de BeyondMimic declarada en el codigo (HybridRobotics/whole_body_tracking); no hay commit de whole_body_tracking porque el codigo no se vendoriza."
+ },
+ "G6": {
+  "estado": "ok",
+  "archivos": [
+   {
+    "ruta": "data/cr/g6_cortes_161.json",
+    "bytes": 3465,
+    "sha256": "4555ac8c8452d53cebfa2c1256c3e435b1f57ed8c7c4504a0c0cf8a4366a17af"
+   },
+   {
+    "ruta": "data/cr/g6_termico.json",
+    "bytes": 2496,
+    "sha256": "1416c37b9da32f799344439b57e7d54b849900eec966c9de6ecd2400034b4ac3"
+   },
+   {
+    "ruta": "analysis/g6_termico.py",
+    "bytes": 1705,
+    "sha256": "d495f25aa9be5262de38752de1a0938b79343c7b18db95d9865599375090ec8b"
+   },
+   {
+    "ruta": "evidencia_no_protocolo/sin_autotest_1.csv",
+    "bytes": 420,
+    "sha256": "67b821d887f12d2f1d3e5c9e9612659a2a1431b19e5cd2cb9f09dad64798ebb8"
+   },
+   {
+    "ruta": "evidencia_no_protocolo/todo_1.json",
+    "bytes": 256,
+    "sha256": "d6e71ae1232b04ad51cfe936bec2430f76f21e7807a9ee5c829d276276497cb3"
+   }
+  ],
+  "resumen": "Cortes .161 el 31-07: 4 confirmados + 3 probables + 1 indeterminado (rango 4-8; 7 coincide con el paper); ninguno en ventana de baile. Termico: pico 80 C = bobinado de waist_roll, 67 % del limite SDK de 120 C; carcasa max 61 C vs 85 C."
+ },
+ "lote_completo": true,
+ "terminado_utc": "2026-09-22T23:19:51Z",
+ "N1": {
+  "estado": "ok",
+  "archivos": [
+   {
+    "ruta": "data/cr/n1_cronologia.json",
+    "bytes": 1806,
+    "sha256": "821d36d1b28623a0462985f049c64a92a884f51cdab80691ba8410814b165070"
+   },
+   {
+    "ruta": "analysis/cr_gpu/fix_csv.py",
+    "bytes": 1959,
+    "sha256": "acb78a8560a9182e65d1f9f020d50a7e7bd0722ef74beb8f568b03e1fff2b108"
+   },
+   {
+    "ruta": "analysis/cr_gpu/train_cola.sh",
+    "bytes": 1061,
+    "sha256": "061874d7d72ee7f9e3611e02c530435c95b19310ce20bf3fdcb84b04465f7ae1"
+   }
+  ],
+  "resumen": "La politica desplegada se entreno sobre referencia SIN filtrar; solo bailetinkus30 paso por fix_motion.py. Intervencion (3 corridas) entrenando desde 2026-10-02 19:07 UTC."
+ },
+ "N2": {
+  "estado": "ok",
+  "archivos": [
+   {
+    "ruta": "data/cr/params/env.yaml",
+    "bytes": 27152,
+    "sha256": "b1f429db5c99b204add36ff346df0c102d92608d5769429de19c77346ee71b5a"
+   }
+  ],
+  "resumen": "src/ sin cambios; 2 archivos del ejecutor modificados (terminations.h, config.yaml) + launcher propio; la config de entrenamiento NO se modifico."
+ },
+ "N3": {
+  "estado": "ok",
+  "archivos": [
+   {
+    "ruta": "data/cr/n_stats.json",
+    "bytes": 2871,
+    "sha256": "bdba8c91d63ba7412c5027609b08b303865bbd2c8a0868506160351c9e682213"
+   },
+   {
+    "ruta": "analysis/cr_n_stats.py",
+    "bytes": 4124,
+    "sha256": "82dc8ea7152a1659ccc1761a9f39f623e51ef8aa6854f07f3ed801a147c07695"
+   }
+  ],
+  "resumen": "ddof=1: 15,85 +- 0,21 grados, variacion 1,31 %."
+ },
+ "N4": {
+  "estado": "ok",
+  "archivos": [
+   {
+    "ruta": "data/cr/n_stats.json",
+    "bytes": 2871,
+    "sha256": "bdba8c91d63ba7412c5027609b08b303865bbd2c8a0868506160351c9e682213"
+   }
+  ],
+  "resumen": "hardware/banco = 0,99; hardware/sim entrenamiento = 1,89; banco/sim entrenamiento = 1,91."
+ },
+ "N5": {
+  "estado": "ok",
+  "archivos": [
+   {
+    "ruta": "data/cr/n5_lag.json",
+    "bytes": 1339,
+    "sha256": "b7f9addee56e4674165d0dafec0ae8ac5791c7631f6c4765ab1fb2ca712b12cf"
+   },
+   {
+    "ruta": "analysis/cr_gpu/n5_lag.py",
+    "bytes": 1906,
+    "sha256": "8f1f6c67004a22b15703767899c73ceaba488341f28c5708d324bc7fc27196ba"
+   }
+  ],
+  "resumen": "Misma busqueda de desfase en los tres: hardware 15,85, banco 15,76 (-0,026 s), sim entrenamiento 8,20 (-0,020 s)."
+ },
+ "N6": {
+  "estado": "ok",
+  "archivos": [
+   {
+    "ruta": "data/cr/n6_cuerpos_fk.json",
+    "bytes": 4319,
+    "sha256": "3beed7495adc2fd73894aef83386694ea2db89f3854f27bd50fd869a4e21c144"
+   },
+   {
+    "ruta": "data/cr/sim_eval_cuerpos_baileaxe.json",
+    "bytes": 923,
+    "sha256": "2b334261c89bce72bea50b87e48cc0383feb87c2bdd59b391819fc1df638fc4e"
+   },
+   {
+    "ruta": "data/cr/sim_eval_cuerpos_tinkus.json",
+    "bytes": 927,
+    "sha256": "5f58d369d79a1b8563383d17790f743afbc53f58de636aeaaba9483c8aebef81"
+   },
+   {
+    "ruta": "analysis/cr_gpu/fk_cuerpos.py",
+    "bytes": 5442,
+    "sha256": "3df856462b1e68c4d9ed63098568b1376a30697c5ab2dadc0adc50cd430f74b7"
+   },
+   {
+    "ruta": "analysis/cr_gpu/cuerpos_comun.py",
+    "bytes": 1616,
+    "sha256": "da778608b58a5b369c2b5f3284f62db27b5a816f8b936ae05de77def8f25e7a2"
+   },
+   {
+    "ruta": "analysis/cr_gpu/eval_sim_cuerpos.py",
+    "bytes": 3541,
+    "sha256": "987a188a3cab7abca78a017ec5ea02aac1e6c669c3207d34431c2b420f0f7a37"
+   }
+  ],
+  "resumen": "Error de cuerpos relativo al ancla por FK: hardware 6,10 cm, banco 5,84, sim 3,39; degradacion mayor en brazos (2,07x) que en piernas (1,67x)."
+ },
+ "N7": {
+  "estado": "ok",
+  "archivos": [
+   {
+    "ruta": "data/cr/n_stats.json",
+    "bytes": 2871,
+    "sha256": "bdba8c91d63ba7412c5027609b08b303865bbd2c8a0868506160351c9e682213"
+   }
+  ],
+  "resumen": "Sin tasa de comandos por corrida en hardware (solo se registro lowstate); el banco a 860-895 Hz reproduce el RMSE de hardware al 1 %."
+ },
+ "N8": {
+  "estado": "ok",
+  "archivos": [
+   {
+    "ruta": "data/cr/tb_curvas_500.json",
+    "bytes": 7190,
+    "sha256": "a21c81ec35df55822195b035a3757226a1673a7d3ebba07f29cdfa954e633ddc"
+   }
+  ],
+  "resumen": "baileaxe57 llega a su meseta de error de cuerpos en ~1000-1500 iteraciones; a 3000: 0,102 vs 0,225 m."
+ },
+ "N9": {
+  "estado": "ok",
+  "archivos": [
+   {
+    "ruta": "data/cr/n9_checkpoints.json",
+    "bytes": 1617,
+    "sha256": "f7627179584ce753ffc3b3970b6e22fa00e6fa5bf8914629e32f927e3604f2c0"
+   },
+   {
+    "ruta": "data/cr/sim_eval_baileaxe_1000.json",
+    "bytes": 748,
+    "sha256": "73d8a6c888f8e4f1fc95c5a2a3c6f9a3efcd0adc749096c33dae630ad3ec8492"
+   },
+   {
+    "ruta": "data/cr/sim_eval_baileaxe_2000.json",
+    "bytes": 752,
+    "sha256": "2947c8065ca5139a2c2d17b4d4ef6009651be92657cf5df6ee94266f1a703be2"
+   },
+   {
+    "ruta": "data/cr/sim_eval_baileaxe_4000.json",
+    "bytes": 748,
+    "sha256": "6b2682a31dd647fadf766dac542c61872ade7b2d03a3b9d3d5c702ca58560539"
+   },
+   {
+    "ruta": "data/cr/sim_eval_baileaxe_6000.json",
+    "bytes": 750,
+    "sha256": "edf7ffe9a9f09181dcbc85d921f8b48d9f9800472338ae5208d71ea2b9adce84"
+   },
+   {
+    "ruta": "data/cr/sim_eval_baileaxe_8000.json",
+    "bytes": 746,
+    "sha256": "0d2e90aeaf232efafee84d12fd0417a386aac9cf47b67b04219d0da5ae188630"
+   },
+   {
+    "ruta": "data/cr/sim_eval_baileaxe_10000.json",
+    "bytes": 749,
+    "sha256": "15a24575437f21b4a1d61a9ad58eeedcb5ec6455a021e9d5afd76e6be8da0010"
+   },
+   {
+    "ruta": "data/cr/sim_eval_baileaxe_12000.json",
+    "bytes": 749,
+    "sha256": "175c6c3bfcfc8abd41f1c1b9eabeacbd652d73b19fe292083161710b05298639"
+   }
+  ],
+  "resumen": "Error de cuerpos plano desde ~2000 iter; RMSE articular a 8000 = 9,12 (9 % sobre el final 8,38)."
+ },
+ "N10": {
+  "estado": "ok",
+  "archivos": [
+   {
+    "ruta": "data/cr/g6_cortes_161.json",
+    "bytes": 3465,
+    "sha256": "4555ac8c8452d53cebfa2c1256c3e435b1f57ed8c7c4504a0c0cf8a4366a17af"
+   },
+   {
+    "ruta": "analysis/outputs/forense_jornada.json",
+    "bytes": 8203,
+    "sha256": "10f2d2e540f53326a5c316a70a6df765d590658380a39d4459ec72b73231ff20"
+   }
+  ],
+  "resumen": "Tabla de 14 eventos de la jornada en BRIDGE_code; protocolo 6/6."
+ },
+ "N11": {
+  "estado": "ok",
+  "archivos": [
+   {
+    "ruta": "data/cr/n_stats.json",
+    "bytes": 2871,
+    "sha256": "bdba8c91d63ba7412c5027609b08b303865bbd2c8a0868506160351c9e682213"
+   }
+  ],
+  "resumen": "No separable: r(temperatura, orden) = 0,983 con N=6."
+ },
+ "N12": {
+  "estado": "ok",
+  "archivos": [
+   {
+    "ruta": "evidencia_no_protocolo/forense/LEEME_FORENSE.md",
+    "bytes": 3295,
+    "sha256": "bfacab01cfb67d3bda5f2c4d6a6e32b3d1ce1a5ea8de04c75b7a941338b83766"
+   }
+  ],
+  "resumen": "Temperatura, alimentacion, bateria, red, registrador y software propio descartados con datos; fallo interno de la placa, reemplazada por Unitree."
+ },
+ "N13": {
+  "estado": "no_aplica",
+  "archivos": [],
+  "resumen": "Inventario de lo publicable en BRIDGE_code; el repositorio no esta creado.",
+  "motivo": "Requiere decisiones de Gonzalo (cuenta, licencia, referencias) y red con acceso a GitHub."
+ },
+ "N14": {
+  "estado": "ok",
+  "archivos": [
+   {
+    "ruta": "data/cr/params/agent.yaml",
+    "bytes": 1030,
+    "sha256": "060e9f61a27fc70aee881c046b490cd4f622df596c905a5c4ee0e8a4d293f25b"
+   },
+   {
+    "ruta": "data/cr/params/env.yaml",
+    "bytes": 27152,
+    "sha256": "b1f429db5c99b204add36ff346df0c102d92608d5769429de19c77346ee71b5a"
+   },
+   {
+    "ruta": "data/cr/params/deploy.yaml",
+    "bytes": 2395,
+    "sha256": "7c3dd1f8ac782fd938f8c1bb1ead1f9cfd0dc0412d0f78b6d991c2bbc9875f46"
+   }
+  ],
+  "resumen": "Tabla de hiperparametros en BRIDGE_code; semilla 42; todo por defecto del repo."
+ },
+ "lote_n_completo": true,
+ "lote_n_terminado_utc": "2026-10-02T19:30:57Z",
+ "intervencion_causa_raiz": {
+  "estado": "ok",
+  "bajado": "2026-10-05",
+  "contenedor": "crtrain",
+  "inicio_utc": "2026-10-02T19:07:39Z",
+  "fin_utc": "2026-10-03T22:05:50Z",
+  "corridas": [
+   "bailemix57f",
+   "bailemix57",
+   "baileaxe57f"
+  ],
+  "resumen": "El filtro NO repara: bailemix57f (0 saltos > 0,5 rad) queda plana a 15000 iter y cae en el banco 0/3. bailemix57 sin filtrar cortada en 7823 por segfault de Python. Control baileaxe57f converge y completa 3/3. Cifras en resumen_intervencion.json.",
+  "archivos": [
+   {
+    "ruta": "data/cr/int_sim_baileaxe57f_3000.json",
+    "bytes": 926,
+    "sha256": "61fa8afe9d7226c4984d8102f0441da8233cc9a657049baa9255a6ae076291f6"
+   },
+   {
+    "ruta": "data/cr/int_sim_baileaxe57f_final.json",
+    "bytes": 925,
+    "sha256": "970aa830e5ee30b9a23b6fe9affb7fd534681b2324735ba65132c1d3df31be49"
+   },
+   {
+    "ruta": "data/cr/int_sim_bailemix57_3000.json",
+    "bytes": 918,
+    "sha256": "c21320353ef778fc837f82b3a858ba4702180ed0088a2ea93830749358d48ab5"
+   },
+   {
+    "ruta": "data/cr/int_sim_bailemix57_final.json",
+    "bytes": 922,
+    "sha256": "ab8a06fb5fb67fc4d0695cf9786c45f34544efc8793614698fce2a14a17dce51"
+   },
+   {
+    "ruta": "data/cr/int_sim_bailemix57f_3000.json",
+    "bytes": 913,
+    "sha256": "77c329d007ce213bf9ddd0c041d37c8b5a9c62c295d08f746d4e4b105378300f"
+   },
+   {
+    "ruta": "data/cr/int_sim_bailemix57f_final.json",
+    "bytes": 924,
+    "sha256": "a32441dca4e4b7007803fb3921f432d73facbb19efd49399644158a621b53c0e"
+   },
+   {
+    "ruta": "data/cr/int_tb_curvas.json",
+    "bytes": 8033,
+    "sha256": "50780b5d3fbd9bc049c0498ddc1edb31a5f1a9eff43cd32c6e82a6bea47df2ea"
+   },
+   {
+    "ruta": "data/cr/logs/bridge_int_baileaxe57f_r1.log",
+    "bytes": 193,
+    "sha256": "2a7de0303f65eb1e0953117fe5dca91d6e968b22ebab59810b6683570511b626"
+   },
+   {
+    "ruta": "data/cr/logs/bridge_int_baileaxe57f_r2.log",
+    "bytes": 193,
+    "sha256": "8ee1e16f48a52646466f4db52998d78648f5ded70664b7cb5279ee12f2327961"
+   },
+   {
+    "ruta": "data/cr/logs/bridge_int_baileaxe57f_r3.log",
+    "bytes": 193,
+    "sha256": "a9573f7194bf382fbca728b820129f1a9babf03ada37d0d756b869ae4b251e21"
+   },
+   {
+    "ruta": "data/cr/logs/bridge_int_bailemix57_r1.log",
+    "bytes": 192,
+    "sha256": "59377fb37c7f25dc30e7c3da2e656f6332bc10a8d7c05add36eea45b2b618995"
+   },
+   {
+    "ruta": "data/cr/logs/bridge_int_bailemix57_r2.log",
+    "bytes": 192,
+    "sha256": "054dedc2d46c67e02b8570e9bb09747870f2bcc7d54e5f2d08d6c2cbb2ba5dc7"
+   },
+   {
+    "ruta": "data/cr/logs/bridge_int_bailemix57_r3.log",
+    "bytes": 192,
+    "sha256": "e830d8ddd3ec024d92e09601969fef3b5d1827da41f210d7b026d7cf621b68f1"
+   },
+   {
+    "ruta": "data/cr/logs/bridge_int_bailemix57f_r1.log",
+    "bytes": 193,
+    "sha256": "b5d55f182bb900c8baca2c83b49e03921714f3a31ba39534333c453228ba4ad9"
+   },
+   {
+    "ruta": "data/cr/logs/bridge_int_bailemix57f_r2.log",
+    "bytes": 193,
+    "sha256": "ee932f451141cdb23eada9c7cd42d8dad3fa46170acd2177f327de5f09089e35"
+   },
+   {
+    "ruta": "data/cr/logs/bridge_int_bailemix57f_r3.log",
+    "bytes": 193,
+    "sha256": "0b53483d7e413e2b41fdcf701c0fedc6f5e1fb5da3213e3613d585844dedf799"
+   },
+   {
+    "ruta": "data/cr/logs/cola.log",
+    "bytes": 570,
+    "sha256": "8f6d131ef1cd09920b5038ab4c86182fd4da685e18c1b0ee582a30d82189da9c"
+   },
+   {
+    "ruta": "data/cr/logs/g1ctrl_int_baileaxe57f_r1.log",
+    "bytes": 2109,
+    "sha256": "96f9456442ef908bff11d7f877e0030fb2fab23fbc78931219ac927c0d4a24c7"
+   },
+   {
+    "ruta": "data/cr/logs/g1ctrl_int_baileaxe57f_r2.log",
+    "bytes": 2109,
+    "sha256": "58cb2cf814027870471384e28ad46a6d4bf0d8f6abd571747dc1f6bea9ac3ccb"
+   },
+   {
+    "ruta": "data/cr/logs/g1ctrl_int_baileaxe57f_r3.log",
+    "bytes": 2109,
+    "sha256": "b83ba80a294df4ae9d047adee214699477ecdb0267f50114423aeaee84fa6cee"
+   },
+   {
+    "ruta": "data/cr/logs/g1ctrl_int_bailemix57_r1.log",
+    "bytes": 2108,
+    "sha256": "5146b079bde3247d2fe2d658c06d032af29c558089ae404518594e18999304f4"
+   },
+   {
+    "ruta": "data/cr/logs/g1ctrl_int_bailemix57_r2.log",
+    "bytes": 2108,
+    "sha256": "132b29956c5c001c38ffbf3fadb7788dada968ececd9c812a7146abe2dc599ae"
+   },
+   {
+    "ruta": "data/cr/logs/g1ctrl_int_bailemix57_r3.log",
+    "bytes": 2108,
+    "sha256": "42b354ff4db38ac698eb6db990116d9cb199f0f9af70b8604138849c1ae4acdf"
+   },
+   {
+    "ruta": "data/cr/logs/g1ctrl_int_bailemix57f_r1.log",
+    "bytes": 2108,
+    "sha256": "3bb86f7a6702abc606ab823e88ca08f81a73ae1dac5bff7240c539642bcc28a8"
+   },
+   {
+    "ruta": "data/cr/logs/g1ctrl_int_bailemix57f_r2.log",
+    "bytes": 2108,
+    "sha256": "81eadc50a001823cb63033e569c8d518c1bc03a43f7f1d4ae330994a6e1d27c8"
+   },
+   {
+    "ruta": "data/cr/logs/g1ctrl_int_bailemix57f_r3.log",
+    "bytes": 2108,
+    "sha256": "abe7ca1b3c13ae3279e159feefc1fbf33a6b16904cbbf551aa0c2d25744857d2"
+   },
+   {
+    "ruta": "data/cr/logs/int_sandbox_baileaxe57f.log",
+    "bytes": 316,
+    "sha256": "a30a6362d50f23374f895aaa85fde74db250a76fdfc4d9e82d51c3916dee045f"
+   },
+   {
+    "ruta": "data/cr/logs/int_sandbox_bailemix57.log",
+    "bytes": 316,
+    "sha256": "a30a6362d50f23374f895aaa85fde74db250a76fdfc4d9e82d51c3916dee045f"
+   },
+   {
+    "ruta": "data/cr/logs/int_sandbox_bailemix57f.log",
+    "bytes": 316,
+    "sha256": "a30a6362d50f23374f895aaa85fde74db250a76fdfc4d9e82d51c3916dee045f"
+   },
+   {
+    "ruta": "data/cr/logs/int_sandbox_restaurado.log",
+    "bytes": 316,
+    "sha256": "a30a6362d50f23374f895aaa85fde74db250a76fdfc4d9e82d51c3916dee045f"
+   },
+   {
+    "ruta": "data/cr/logs/int_sim2sim_eval.log",
+    "bytes": 4054,
+    "sha256": "003efc67f11c578b7b4aacb8584f04c1a98bd17fbf419d57d0093b1ae9b975a3"
+   },
+   {
+    "ruta": "data/cr/logs/int_sim2sim_runs.log",
+    "bytes": 303,
+    "sha256": "a22d3c2457b1c3f7c015e676b01ee29dc3155986f3ca1fd04620f9b669674c80"
+   },
+   {
+    "ruta": "data/cr/logs/int_sim_baileaxe57f_3000.log",
+    "bytes": 10943,
+    "sha256": "796464eacafbd45423ecae7fbd772c15c0794326c992566f4caeafdce1835da9"
+   },
+   {
+    "ruta": "data/cr/logs/int_sim_baileaxe57f_final.log",
+    "bytes": 10943,
+    "sha256": "63b5f300a329b2320daba09d0b43c3e88d7cf7d45712f29b724fcca861882b18"
+   },
+   {
+    "ruta": "data/cr/logs/int_sim_bailemix57_3000.log",
+    "bytes": 10935,
+    "sha256": "a63c036a70cd06b28bcf781ec60c9a9ea71d7ebd842bb7c22cc20c3dfd3da8fa"
+   },
+   {
+    "ruta": "data/cr/logs/int_sim_bailemix57_final.log",
+    "bytes": 10939,
+    "sha256": "8d286b7a7a03246dd2caeb4ddfea6e8b576df98d9f48d0e7bbdaa0e742687117"
+   },
+   {
+    "ruta": "data/cr/logs/int_sim_bailemix57f_3000.log",
+    "bytes": 10930,
+    "sha256": "834c133c78e4c8f7596af54fe242d1df21e6eb7e6cac1fb9ba360de8196e957b"
+   },
+   {
+    "ruta": "data/cr/logs/int_sim_bailemix57f_final.log",
+    "bytes": 10942,
+    "sha256": "7efec7d9535fd6d2893fa530fd580fcaae333bb3d2960c6e88b9871b2c86dff5"
+   },
+   {
+    "ruta": "data/cr/logs/int_tb.log",
+    "bytes": 633,
+    "sha256": "d8734befbcbeebbb28f2dabd246e09111cc8a99be0610cc81a8691cfdbc68b05"
+   },
+   {
+    "ruta": "data/cr/logs/kernel_2026-10-03_segfault.txt",
+    "bytes": 197,
+    "sha256": "f07024840aa7bd11329e9dd763ddf313ee0b46d599d2391b729ad5c4cc8ffe46"
+   },
+   {
+    "ruta": "data/cr/logs/post_cola.txt",
+    "bytes": 1128,
+    "sha256": "f43ce62724932ee1278af8b18e5b9e1e156102f11f7da8fc7a7e35199ff2df57"
+   },
+   {
+    "ruta": "data/cr/logs/train_baileaxe57f_cr.tail.log",
+    "bytes": 6000,
+    "sha256": "08297fee1a702ace3b7616528e1060fa392c1b6539f4292c7d91555bb179e14a"
+   },
+   {
+    "ruta": "data/cr/logs/train_bailemix57_cr.tail.log",
+    "bytes": 6000,
+    "sha256": "33c7ed3edd14b7d3bf9c66b3c81421bdf173fe54dafdc049e1060d5a0f9f8581"
+   },
+   {
+    "ruta": "data/cr/logs/train_bailemix57f_cr.tail.log",
+    "bytes": 6000,
+    "sha256": "2c92eb423ab46cddf966190e4ed75382ceb51c3a38450eccca30225ed7333200"
+   },
+   {
+    "ruta": "data/cr/resumen_intervencion.json",
+    "bytes": 6776,
+    "sha256": "4c6d3a4932c13b5252c1c38da74fad33b4d44c64b0dbe3e628275074a67ba1b1"
+   },
+   {
+    "ruta": "data/cr/sim2sim/sim2sim_int_baileaxe57f_r1.npz",
+    "bytes": 1365874,
+    "sha256": "fae3dcdc216d4e81f0842f0c0af9504a49554da918420f4c573dbaa67381e649"
+   },
+   {
+    "ruta": "data/cr/sim2sim/sim2sim_int_baileaxe57f_r2.npz",
+    "bytes": 1366402,
+    "sha256": "77903ca2bad39d38095fb8b2ab683dfe1d23379f8acbeb1b1cbf8120cdab1ce6"
+   },
+   {
+    "ruta": "data/cr/sim2sim/sim2sim_int_baileaxe57f_r3.npz",
+    "bytes": 1365513,
+    "sha256": "2812de407ee5e9dfb00416bd87cd866fb5281a5e41e744a9cf0afeffa9a5cc85"
+   },
+   {
+    "ruta": "data/cr/sim2sim/sim2sim_int_bailemix57_r1.npz",
+    "bytes": 1266656,
+    "sha256": "10de911ee4fbbc54072ec2a2aa6e4ce13e910febd503123c253246abc8594d9a"
+   },
+   {
+    "ruta": "data/cr/sim2sim/sim2sim_int_bailemix57_r2.npz",
+    "bytes": 1270192,
+    "sha256": "d26f43fa0f5d6b7ba7af7499a1c33d04c2b62b085f27e2da9e0e75e3cd89c503"
+   },
+   {
+    "ruta": "data/cr/sim2sim/sim2sim_int_bailemix57_r3.npz",
+    "bytes": 1234820,
+    "sha256": "f60d7486e971d584cc859a9a5e1535ca00ddb7f522af0c6308f1e4a74ef066b2"
+   },
+   {
+    "ruta": "data/cr/sim2sim/sim2sim_int_bailemix57f_r1.npz",
+    "bytes": 1223202,
+    "sha256": "d6d813a70c07ee913155627f2353a9d67384d9b6a040df5e7e4a3656ba1a7814"
+   },
+   {
+    "ruta": "data/cr/sim2sim/sim2sim_int_bailemix57f_r2.npz",
+    "bytes": 1211650,
+    "sha256": "fd2a1dd005a3e9e786316a3d5da7e2d0c648368750d627dca004defe3a58aee6"
+   },
+   {
+    "ruta": "data/cr/sim2sim/sim2sim_int_bailemix57f_r3.npz",
+    "bytes": 1211101,
+    "sha256": "c639333bd96762d9056d229f8fb88b8ff35bb0696e6a4f3d8a9a9f474082d8d5"
+   },
+   {
+    "ruta": "data/cr/sim2sim_int_baileaxe57f_r1.json",
+    "bytes": 831,
+    "sha256": "eee27026d1182bce334d59fe5dcfd31ba1257d89ae79fc2f20d3e161897577d1"
+   },
+   {
+    "ruta": "data/cr/sim2sim_int_baileaxe57f_r2.json",
+    "bytes": 837,
+    "sha256": "006b68660253edd658b4ae987c75d704536232e28d018ac9aaa32e99663c67a3"
+   },
+   {
+    "ruta": "data/cr/sim2sim_int_baileaxe57f_r3.json",
+    "bytes": 831,
+    "sha256": "28b8ebdb2c35ec71eb4d53ea7d0d24699553311c63f948a269dd778dd4fb6dba"
+   },
+   {
+    "ruta": "data/cr/sim2sim_int_bailemix57_r1.json",
+    "bytes": 829,
+    "sha256": "366bab290d33b65cd8d0025c5b9a0de97f8afdbca6893f3fb867745cb51de179"
+   },
+   {
+    "ruta": "data/cr/sim2sim_int_bailemix57_r2.json",
+    "bytes": 835,
+    "sha256": "049bcdde28e605db1446357b4bf40e49c84286705b4153f99e2e0afb17dbfbc6"
+   },
+   {
+    "ruta": "data/cr/sim2sim_int_bailemix57_r3.json",
+    "bytes": 834,
+    "sha256": "24d8a52466112775413b483c5d1a9299084d82dac17fa1bbbfddf28d2e73322a"
+   },
+   {
+    "ruta": "data/cr/sim2sim_int_bailemix57f_r1.json",
+    "bytes": 836,
+    "sha256": "c04fbbb6f18ca1de929597240aa03fc2238bf3abdf43477342278a490cee41a7"
+   },
+   {
+    "ruta": "data/cr/sim2sim_int_bailemix57f_r2.json",
+    "bytes": 836,
+    "sha256": "f0216eb0af7b4c0daf13391d35e7ef619832a4c0a532b7bf156484c2e4b7a55f"
+   },
+   {
+    "ruta": "data/cr/sim2sim_int_bailemix57f_r3.json",
+    "bytes": 829,
+    "sha256": "c36b2c128697fbad4ae666d6b3880ad65c8e77ce680ad2a71ab5bb412fdb2263"
+   },
+   {
+    "ruta": "analysis/cr_gpu/train_cola.sh",
+    "bytes": 1061,
+    "sha256": "061874d7d72ee7f9e3611e02c530435c95b19310ce20bf3fdcb84b04465f7ae1"
+   },
+   {
+    "ruta": "analysis/cr_gpu/post_cola.sh",
+    "bytes": 2683,
+    "sha256": "ca479b4546f0aacf44922f4a114331bfd395fd8a04a8a7c5b7c96f3295c82935"
+   },
+   {
+    "ruta": "analysis/cr_gpu/lanzar_cola.sh",
+    "bytes": 732,
+    "sha256": "ff6dd04f5a01ec78e271b7bf62fcbe5a4dae61b11835fbfb84f1340e1b221627"
+   },
+   {
+    "ruta": "analysis/cr_gpu/fix_csv.py",
+    "bytes": 1959,
+    "sha256": "acb78a8560a9182e65d1f9f020d50a7e7bd0722ef74beb8f568b03e1fff2b108"
+   },
+   {
+    "ruta": "analysis/cr_gpu/eval_sim_cuerpos.py",
+    "bytes": 3541,
+    "sha256": "987a188a3cab7abca78a017ec5ea02aac1e6c669c3207d34431c2b420f0f7a37"
+   },
+   {
+    "ruta": "analysis/cr_gpu/tb_curvas.py",
+    "bytes": 1213,
+    "sha256": "65ea6a006151ea5fcce46f10ccded383681d0bca0810ffb87a4468abc9b9180f"
+   }
+  ]
+ },
+ "intervencion_altura_raiz": {
+  "estado": "corriendo",
+  "contenedor": "crtrain_g",
+  "inicio_utc": "2026-10-05T16:52:28Z",
+  "corridas": [
+   "bailemix57g",
+   "baileaxe57g"
+  ],
+  "preregistro": "BRIDGE_code.md [2026-10-05 12:00] seccion 3",
+  "resumen": "Solo insumos previos al entrenamiento: medida de flotacion (ref_viabilidad), reporte de la correccion (suelo_*g) y verificacion de que solo cambia la altura (verifica_g). Resultados pendientes.",
+  "pendiente": "int_sim_*57g*, sim2sim_int_*57g*, intg_tb_curvas.json en GPU ~/g1_ws/cr/out al terminar",
+  "archivos": [
+   {
+    "ruta": "data/cr/logs/cola_g.log",
+    "bytes": 118,
+    "sha256": "f7f321e578c3100334f55e3ac93d9f7ebfe7c5fac35684603574083d8b509d72"
+   },
+   {
+    "ruta": "data/cr/logs/post_cola_g.txt",
+    "bytes": 36,
+    "sha256": "48f2fe9345793a424ef7e68af0494e9763f24ac5da331b5d4510aa8d08a22433"
+   },
+   {
+    "ruta": "data/cr/ref_viabilidad.json",
+    "bytes": 13620,
+    "sha256": "1642d1d296e6a05c7ac1cf4f0ec27349b03296cf57e7eb5d9900fcf4ce077506"
+   },
+   {
+    "ruta": "data/cr/suelo_baileaxe57g.json",
+    "bytes": 491,
+    "sha256": "70ceae9fdd6eeffe58a55f90f38d37360586b3ecc84e087b59602b9f2c4aa7f9"
+   },
+   {
+    "ruta": "data/cr/suelo_bailemix57g.json",
+    "bytes": 492,
+    "sha256": "5e3c11371fff2fff563ce3e22eb944207d3bf9247a752923fdf5adf5a72cc40b"
+   },
+   {
+    "ruta": "data/cr/verifica_g.json",
+    "bytes": 1728,
+    "sha256": "0036cc2e087d0f033be50e88a933fa6ef6656928f21a95c2828f54d97057ce84"
+   },
+   {
+    "ruta": "analysis/cr_gpu/ref_viabilidad.py",
+    "bytes": 5153,
+    "sha256": "c629a16e5ecb21836ad08aafdae36c92b2d54df372c6a43e65bcfeb1e817a919"
+   },
+   {
+    "ruta": "analysis/cr_gpu/suelo_csv.py",
+    "bytes": 3501,
+    "sha256": "9d882ed6878fb5fce84a64a00cf5656f192bf655d0f38d4d572380a40575710c"
+   },
+   {
+    "ruta": "analysis/cr_gpu/verifica_g.py",
+    "bytes": 1980,
+    "sha256": "e24341b628a5228444352c620ffb56a925079f7a0551653df2de708553f20fab"
+   },
+   {
+    "ruta": "analysis/cr_gpu/prep_g.sh",
+    "bytes": 1113,
+    "sha256": "0977cfd1397bf777879337e5f739f6242f87b3c92e8b6172c9ea6ae80abd2f30"
+   },
+   {
+    "ruta": "analysis/cr_gpu/train_cola_g.sh",
+    "bytes": 1186,
+    "sha256": "73fe14160dbbac11f737e4c08614d562f47c88edec13d1dbfb1182644507cf05"
+   },
+   {
+    "ruta": "analysis/cr_gpu/post_cola_g.sh",
+    "bytes": 2705,
+    "sha256": "ead8436703e31c7d0689ccfe55b46cee931b36c77902bab43decebccccd44144"
+   },
+   {
+    "ruta": "analysis/cr_gpu/lanzar_cola_g.sh",
+    "bytes": 933,
+    "sha256": "8a5102f937e561d18a3cfd6a661da2210a1740b64c23bd48270602c59448d932"
+   }
+  ]
+ }
+}

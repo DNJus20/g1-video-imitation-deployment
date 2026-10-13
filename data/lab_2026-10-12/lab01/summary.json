@@ -1,0 +1,63 @@
+{
+  "summary": {
+    "n_runs": 1,
+    "n_success": 1,
+    "n_invalid_outcome": 0,
+    "success_rate": 1.0,
+    "outcomes": {
+      "success": 1
+    },
+    "n_usable_success": 1,
+    "n_excluded_from_rmse": 0,
+    "excluded_from_rmse": [],
+    "hardware_joint_rmse_rad_mean": 0.2692,
+    "hardware_joint_rmse_rad_std": 0.0,
+    "hardware_joint_rmse_deg_mean": 15.42,
+    "_rmse_incl_excluded_mean": 0.2692,
+    "_rmse_incl_excluded_std": 0.0,
+    "max_session_motor_temp_C": 68.0,
+    "any_run_with_fault": false,
+    "nota_metrica": "RMSE en espacio articular (rad); NO comparable con error_body_pos (cartesiano). Ver cabecera."
+  },
+  "per_run": [
+    {
+      "run": "run_lab01_baileaxe",
+      "outcome": "success",
+      "condition": "harness",
+      "samples": 275005,
+      "time_source": "tick_ms",
+      "rate_hz_mean": 999.7,
+      "rate_hz_std": 8.1,
+      "n_sample_gaps": 69,
+      "dance_start_found": true,
+      "n_dance_combo_presses": 1,
+      "window_end_source": "ref_duration_cap",
+      "window_s": 56.98,
+      "max_abs_roll_deg": 15.5,
+      "max_abs_pitch_deg": 46.9,
+      "rms_roll_deg": 3.05,
+      "rms_pitch_deg": 8.52,
+      "max_motor_temp_C": 68.0,
+      "hottest_motor": 13,
+      "max_temp_legs_C": 63.0,
+      "max_temp_waist_C": 68.0,
+      "max_temp_arms_C": 63.0,
+      "any_motor_fault": false,
+      "frac_in_control": 1.0,
+      "any_motor_uncontrolled": false,
+      "rmse_all_rad": 0.2692,
+      "rmse_legs_rad": 0.3569,
+      "rmse_waist_rad": 0.0719,
+      "rmse_arms_rad": 0.1995,
+      "rmse_all_deg": 15.42,
+      "align_lag_s": -0.056,
+      "ref_frames_used": 2847,
+      "tick_ok": true,
+      "outcome_valid": true,
+      "align_lag_at_edge": false,
+      "usable": true,
+      "joint_map": "identity[0..28]",
+      "warnings": []
+    }
+  ]
+}

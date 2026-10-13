@@ -1,0 +1,16 @@
+[Unit]
+Description=G1 baile controller (g1_ctrl deploy)
+After=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/unitree/g1_deploy/deploy/robots/g1
+Environment=LD_LIBRARY_PATH=/home/unitree/g1_deploy/deploy/thirdparty/onnxruntime-linux-aarch64-1.22.0/lib:/usr/local/lib
+StandardOutput=append:/home/unitree/g1ctrl.log
+StandardError=append:/home/unitree/g1ctrl.log
+ExecStart=/home/unitree/g1_deploy/deploy/robots/g1/build/g1_ctrl --network=eth0
+Restart=on-failure
+RestartSec=2
+
+[Install]
+WantedBy=default.target

@@ -1,0 +1,79 @@
+{
+  "fecha": "2026-07-31",
+  "horas": "UTC (Lima = UTC-5)",
+  "ventanas_de_arranque": [
+    {
+      "n": 1,
+      "arranque": "run00 (preflight, robot colgado)",
+      "corte_utc": "~15:08:54",
+      "clase": "probable",
+      "evidencia": "run00 termina a las 15:08:53.9; en g1ctrl.log el arranque '2023-03-15 23:08:39' pasa FixStand->Passive 4,8 s despues de entrar (patron de failsafe). La alineacion de ese bloque no tiene ancla independiente."
+    },
+    {
+      "n": 2,
+      "arranque": "run01+run02",
+      "corte_utc": "15:37:04.1-15:37:05.5",
+      "clase": "confirmado",
+      "evidencia": "run02 .npz: tick continuo hasta la ultima muestra 15:37:04.1; g1ctrl.log Velocity->Passive 15:37:05.5 +-1 s (anclado con el baile de run01); caida del robot; JSON cerrado con Ctrl+C 15:37:40."
+    },
+    {
+      "n": 3,
+      "arranque": "bloque g1ctrl.log '2023-03-15 23:13:26' (entre run02 y run03, sin logger)",
+      "corte_utc": "desconocido (~15:45-16:15)",
+      "clase": "indeterminado",
+      "evidencia": "Velocity durante 177 s y luego Passive; sin registro de lowstate no se distingue un corte de una parada manual."
+    },
+    {
+      "n": 4,
+      "arranque": "run03-run07 (arranque 16:20:06 UTC)",
+      "corte_utc": "~16:33:22",
+      "clase": "probable",
+      "evidencia": "g1ctrl.log Velocity->Passive 27 s despues de cerrar run07, tras ~13 min de vida (dentro del rango 9-17 min observado); sin lowstate que lo confirme."
+    },
+    {
+      "n": 5,
+      "arranque": "diag_161_1",
+      "corte_utc": "~17:17:48",
+      "clase": "confirmado",
+      "evidencia": "diag_161_1.csv: ultima ventana a 233 Hz (de 1042) a t=345,8 s; el script corta al bajar de 50 Hz; archivo cerrado 17:17:53."
+    },
+    {
+      "n": 6,
+      "arranque": "diag_161_2",
+      "corte_utc": "~20:22:56",
+      "clase": "probable",
+      "evidencia": "diag_161_2.csv: 1666 s de vida, ultima fila sana a 1042 Hz; el script cierra al morir o con Ctrl+C sin escribir fila, asi que el final no distingue."
+    },
+    {
+      "n": 7,
+      "arranque": "sin_autotest_1",
+      "corte_utc": "~21:34:21",
+      "clase": "confirmado",
+      "evidencia": "sin_autotest_1.csv: ultima ventana a 675 Hz (lowstate) y 647 Hz (lowcmd) a t=65,7 s; archivo cerrado 21:34:26."
+    },
+    {
+      "n": 8,
+      "arranque": "todo_1",
+      "corte_utc": "~22:17",
+      "clase": "confirmado",
+      "evidencia": "todo_1.json: muertes rt/lowstate y rt/lowcmd a t=317,1 s; ping a .161 cae a la vez (todo_1.csv); archivo cerrado 22:17:22."
+    }
+  ],
+  "conteo": {
+    "confirmado": 4,
+    "probable": 3,
+    "indeterminado": 1
+  },
+  "conclusion": "Cota inferior con datos: 4 cortes confirmados. 4 + 3 probables = 7, que coincide con el paper; el 8.o arranque es indeterminado. No hay cota superior con datos: entre 17:18 y 19:55 UTC no hubo registro.",
+  "texto_sugerido": "the controller stopped publishing repeatedly during the campaign (four times with recorded evidence, seven by our reconstruction), each requiring a power cycle",
+  "ninguno_en_ventana_de_baile": true,
+  "fuentes": [
+    "evidencia_no_protocolo/g1ctrl.log",
+    "evidencia_no_protocolo/run02_baileaxe_sinarnes.npz",
+    "evidencia_no_protocolo/diag_161_1.csv",
+    "evidencia_no_protocolo/diag_161_2.csv",
+    "evidencia_no_protocolo/todo_1.csv",
+    "GPU ~/g1_ws/paper_runs/sin_autotest_1.csv",
+    "GPU ~/g1_ws/paper_runs/todo_1.json"
+  ]
+}

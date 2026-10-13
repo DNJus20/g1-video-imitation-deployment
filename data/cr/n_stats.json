@@ -1,0 +1,158 @@
+{
+ "n_hw": 6,
+ "N3": {
+  "media_deg": 15.853,
+  "desv_poblacional_ddof0_deg": 0.189,
+  "desv_muestral_ddof1_deg": 0.207,
+  "cv_ddof0_pct": 1.19,
+  "cv_ddof1_pct": 1.31,
+  "por_corrida_deg": [
+   16.15,
+   15.58,
+   15.79,
+   16.04,
+   15.72,
+   15.84
+  ],
+  "por_grupo_ddof1": {
+   "all": [
+    15.85,
+    0.21
+   ],
+   "legs": [
+    20.97,
+    0.15
+   ],
+   "waist": [
+    4.38,
+    0.12
+   ],
+   "arms": [
+    11.82,
+    0.45
+   ]
+  }
+ },
+ "N4": {
+  "tabla": {
+   "all": {
+    "hardware_deg": 15.85,
+    "hardware_sd1": 0.21,
+    "banco_binario_deg": 15.99,
+    "banco_sd1": 0.06,
+    "sim_entrenamiento_deg": 8.38,
+    "hw_sobre_banco": 0.992,
+    "hw_sobre_sim_entrenamiento": 1.891,
+    "banco_sobre_sim_entrenamiento": 1.907
+   },
+   "legs": {
+    "hardware_deg": 20.97,
+    "hardware_sd1": 0.15,
+    "banco_binario_deg": 21.44,
+    "banco_sd1": 0.0,
+    "sim_entrenamiento_deg": 9.24,
+    "hw_sobre_banco": 0.978,
+    "hw_sobre_sim_entrenamiento": 2.269,
+    "banco_sobre_sim_entrenamiento": 2.32
+   },
+   "waist": {
+    "hardware_deg": 4.38,
+    "hardware_sd1": 0.12,
+    "banco_binario_deg": 3.87,
+    "banco_sd1": 0.04,
+    "sim_entrenamiento_deg": 3.01,
+    "hw_sobre_banco": 1.131,
+    "hw_sobre_sim_entrenamiento": 1.455,
+    "banco_sobre_sim_entrenamiento": 1.286
+   },
+   "arms": {
+    "hardware_deg": 11.82,
+    "hardware_sd1": 0.45,
+    "banco_binario_deg": 11.5,
+    "banco_sd1": 0.18,
+    "sim_entrenamiento_deg": 8.4,
+    "hw_sobre_banco": 1.028,
+    "hw_sobre_sim_entrenamiento": 1.407,
+    "banco_sobre_sim_entrenamiento": 1.369
+   }
+  },
+  "n_hw": 6,
+  "n_banco": 3,
+  "n_envs_sim_entrenamiento": 16,
+  "banco_completa_sin_caida": "3/3",
+  "banco_pitch_max_deg": 47.3,
+  "banco_roll_max_deg": 15.6
+ },
+ "N5": {
+  "hw_lag_por_corrida_s": [
+   -0.026,
+   -0.028,
+   -0.028,
+   -0.048,
+   -0.046,
+   -0.046
+  ],
+  "hw_lag_medio_s": -0.037,
+  "banco_lag_tiempo_real_max_s": [
+   0.0034,
+   0.0019,
+   0.004
+  ]
+ },
+ "N7": {
+  "banco_lowcmd_hz": [
+   866.5,
+   895.5,
+   863.9
+  ],
+  "banco_rmse_deg": [
+   15.95,
+   16.06,
+   15.95
+  ],
+  "hw_captura_lowstate_hz": [
+   943.5,
+   987.6,
+   984.9,
+   983.7,
+   987.9,
+   972.3
+  ],
+  "r_captura_vs_rmse_hw": -0.749
+ },
+ "N11": {
+  "temp_max_C": [
+   64.0,
+   69.0,
+   73.0,
+   75.0,
+   77.0,
+   80.0
+  ],
+  "pitch_max_deg": [
+   45.6,
+   45.5,
+   49.7,
+   49.7,
+   48.3,
+   49.7
+  ],
+  "pitch_rms_deg": [
+   8.04,
+   8.03,
+   8.47,
+   8.68,
+   8.54,
+   8.88
+  ],
+  "r_temp_orden": 0.9833,
+  "r_pitchmax_temp": 0.82,
+  "r_pitchmax_orden": 0.759,
+  "r_pitchrms_temp": 0.929,
+  "r_pitchrms_orden": 0.924,
+  "r_rmse_temp": -0.304,
+  "r_rmse_orden": -0.226,
+  "parcial_pitchrms_temp_dado_orden": 0.298,
+  "parcial_pitchrms_orden_dado_temp": 0.151
+ }
+}

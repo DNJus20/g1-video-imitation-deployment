@@ -1,0 +1,129 @@
+{
+  "G4_sim2sim_binario": {
+    "tinkus": {
+      "completan": 3,
+      "n": 3,
+      "rmse_all_deg": {
+        "media": 14.42,
+        "desv": 0.1,
+        "min": 14.35,
+        "max": 14.54
+      },
+      "rmse_legs_deg": {
+        "media": 17.49,
+        "desv": 0.06,
+        "min": 17.43,
+        "max": 17.55
+      },
+      "rmse_waist_deg": {
+        "media": 6.63,
+        "desv": 0.1,
+        "min": 6.55,
+        "max": 6.74
+      },
+      "rmse_arms_deg": {
+        "media": 12.62,
+        "desv": 0.16,
+        "min": 12.52,
+        "max": 12.81
+      },
+      "roll_max_deg": 32.9,
+      "pitch_max_deg": 54.5,
+      "pelvis_min_m": 0.653,
+      "lowcmd_hz": {
+        "media": 874.17,
+        "desv": 14.94,
+        "min": 859.9,
+        "max": 889.7
+      }
+    },
+    "baileaxe": {
+      "completan": 3,
+      "n": 3,
+      "rmse_all_deg": {
+        "media": 15.99,
+        "desv": 0.06,
+        "min": 15.95,
+        "max": 16.06
+      },
+      "rmse_legs_deg": {
+        "media": 21.44,
+        "desv": 0.0,
+        "min": 21.44,
+        "max": 21.44
+      },
+      "rmse_waist_deg": {
+        "media": 3.87,
+        "desv": 0.04,
+        "min": 3.84,
+        "max": 3.91
+      },
+      "rmse_arms_deg": {
+        "media": 11.5,
+        "desv": 0.18,
+        "min": 11.39,
+        "max": 11.71
+      },
+      "roll_max_deg": 15.6,
+      "pitch_max_deg": 47.3,
+      "pelvis_min_m": 0.695,
+      "lowcmd_hz": {
+        "media": 875.3,
+        "desv": 17.54,
+        "min": 863.9,
+        "max": 895.5
+      }
+    }
+  },
+  "G3_sim_eval": {
+    "im_eval_baileaxe_3000": {
+      "rmse_all_deg": 10.309893608093262,
+      "rmse_legs_deg": 10.327940940856934,
+      "rmse_waist_deg": 3.6218831539154053,
+      "rmse_arms_deg": 11.222339630126953,
+      "error_body_pos_mean_m": 0.10304684437309265,
+      "checkpoint": "model_3000.pt"
+    },
+    "im_eval_baileaxe_final": {
+      "rmse_all_deg": 8.384867668151855,
+      "rmse_legs_deg": 9.239570617675781,
+      "rmse_waist_deg": 3.009979248046875,
+      "rmse_arms_deg": 8.397525787353516,
+      "error_body_pos_mean_m": 0.10168507137973608,
+      "checkpoint": "model_14999.pt"
+    },
+    "im_eval_bailemix_3000": {
+      "rmse_all_deg": 29.942161560058594,
+      "rmse_legs_deg": 26.70545196533203,
+      "rmse_waist_deg": 21.94273567199707,
+      "rmse_arms_deg": 33.80282974243164,
+      "error_body_pos_mean_m": 0.8726237360133062,
+      "checkpoint": "model_3000.pt"
+    },
+    "im_eval_tinkus_3000": {
+      "rmse_all_deg": 29.317874908447266,
+      "rmse_legs_deg": 27.46767234802246,
+      "rmse_waist_deg": 20.262969970703125,
+      "rmse_arms_deg": 32.338783264160156,
+      "error_body_pos_mean_m": 0.7767456330315693,
+      "checkpoint": "model_3000.pt"
+    },
+    "im_eval_tinkus_final": {
+      "rmse_all_deg": 9.586835861206055,
+      "rmse_legs_deg": 8.986448287963867,
+      "rmse_waist_deg": 5.332124710083008,
+      "rmse_arms_deg": 10.726953506469727,
+      "error_body_pos_mean_m": 0.1176629860009433,
+      "checkpoint": "model_14999.pt"
+    }
+  },
+  "hardware_baileaxe_referencia": {
+    "fuente": "analysis/outputs/summary.json + per_run.csv (N=6)",
+    "rmse_all_deg": 15.85,
+    "rmse_all_desv_deg": 0.19,
+    "piernas_deg": 20.97,
+    "cintura_deg": 4.38,
+    "brazos_deg": 11.82
+  },
+  "umbral_damping_inclinacion_deg": 57.3
+}

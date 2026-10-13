@@ -1,0 +1,19 @@
+{
+  "n_joints": 29,
+  "n_envs": 16,
+  "n_steps": 2849,
+  "checkpoint": "/workspace/unitree_rl_mjlab/logs/rsl_rl/g1_tracking/2026-07-21_19-47-02/model_8000.pt",
+  "motion": "/workspace/unitree_rl_mjlab/src/assets/motions/g1/baileaxe57.npz",
+  "error_joint_pos_mean_L2": 0.8126530682320928,
+  "error_joint_pos_final_L2": 0.7536473560333252,
+  "error_body_pos_mean_m": 0.10294452816033497,
+  "rmse_all_rad": 0.1591636836528778,
+  "rmse_all_deg": 9.119406700134277,
+  "rmse_legs_rad": 0.16331909596920013,
+  "rmse_legs_deg": 9.357494354248047,
+  "rmse_waist_rad": 0.05487494543194771,
+  "rmse_waist_deg": 3.1441025733947754,
+  "rmse_arms_rad": 0.17019902169704437,
+  "rmse_arms_deg": 9.75168514251709,
+  "rmse_from_L2_mean_rad": 0.1509058863259773
+}

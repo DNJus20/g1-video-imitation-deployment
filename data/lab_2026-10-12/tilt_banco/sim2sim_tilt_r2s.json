@@ -1,0 +1,24 @@
+{
+ "eje": "roll-",
+ "rate_rad_s": 0.05,
+ "k_ori": 3000.0,
+ "d_ori": 400.0,
+ "z_band": 0.95,
+ "umbral_codigo_deg": 57.29577951308232,
+ "trigger": {
+  "t": 15.243,
+  "t_since_tilt": 2.2430000000000003,
+  "theta_cmd_deg": 6.425721672392184,
+  "tilt_deg": 0.0,
+  "roll_deg": 4.202081248490555e-19,
+  "pitch_deg": 0.0,
+  "ncmd": 12880
+ },
+ "ultimo_bajo_control": {
+  "t": 15.24,
+  "tilt_deg": 53.35114192415577
+ },
+ "ncmd_total": 14622,
+ "lag_max_s": 0.004,
+ "velocity_alcanzado": true
+}

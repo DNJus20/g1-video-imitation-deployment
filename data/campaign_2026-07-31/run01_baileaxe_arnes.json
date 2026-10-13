@@ -1,0 +1,16 @@
+{
+  "run": "run01_baileaxe_arnes",
+  "complete": true,
+  "wall_start": "2026-07-31 15:30:40",
+  "duration_s": 140.39,
+  "samples": 137616,
+  "rate_hz": 980.2,
+  "mode_machine": 5,
+  "max_abs_roll_deg": 16.4,
+  "max_abs_pitch_deg": 45.6,
+  "max_motor_temp_C": 64.0,
+  "any_motor_fault": false,
+  "outcome": "success",
+  "condition": "no_harness",
+  "notes": "Completo los 56.98 s sin caerse y volvio estable a Velocity. El robot DERIVO UN POCO HACIA ADELANTE durante el baile (deriva conocida de esta politica, gap sim2real). OJO: el nombre del archivo dice \"arnes\" pero la corrida fue SIN ARNES (condition=no_harness manda)."
+}

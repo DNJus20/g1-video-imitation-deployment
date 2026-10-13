@@ -1,0 +1,17 @@
+{
+  "run": "run03_baileaxe_sinarnes",
+  "complete": true,
+  "wall_start": "2026-07-31 16:21:39",
+  "duration_s": 79.87,
+  "samples": 82196,
+  "rate_hz": 1029.2,
+  "mode_machine": 5,
+  "max_abs_roll_deg": 16.2,
+  "max_abs_pitch_deg": 45.5,
+  "max_motor_temp_C": 69.0,
+  "any_motor_fault": false,
+  "capture_gaps_gt_50ms": 4,
+  "outcome": "success",
+  "condition": "no_harness",
+  "notes": "Completo el baile y volvio estable a Velocity. Sin arnes. Logger ya con el fix de autosave: 1029 Hz, solo 4 huecos >50ms."
+}

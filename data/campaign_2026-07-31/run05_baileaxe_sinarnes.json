@@ -1,0 +1,17 @@
+{
+  "run": "run05_baileaxe_sinarnes",
+  "complete": true,
+  "wall_start": "2026-07-31 16:26:39",
+  "duration_s": 104.81,
+  "samples": 107431,
+  "rate_hz": 1025.0,
+  "mode_machine": 5,
+  "max_abs_roll_deg": 17.2,
+  "max_abs_pitch_deg": 49.7,
+  "max_motor_temp_C": 75.0,
+  "any_motor_fault": false,
+  "capture_gaps_gt_50ms": 5,
+  "outcome": "success",
+  "condition": "no_harness",
+  "notes": "Completo el baile y volvio a Velocity. Sin arnes. Cabeceo maximo 49.7 grados (igual que run04). Motores a 75 C: la temperatura sigue subiendo corrida a corrida (64/69/73/75) por encadenar sin pausa termica completa."
+}

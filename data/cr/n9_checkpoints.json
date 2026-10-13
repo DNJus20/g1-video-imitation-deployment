@@ -1,0 +1,78 @@
+{
+ "politica": "2026-07-21_19-47-02 (baileaxe57, desplegada)",
+ "metrica": "misma que sim_eval_baileaxe.json: 16 envs, motion completo, play=True, sin terminaciones",
+ "por_iteracion": {
+  "1000": {
+   "all": 15.84,
+   "legs": 15.16,
+   "waist": 6.14,
+   "arms": 17.73,
+   "error_body_pos_m": 0.1144,
+   "rmse_all_sobre_final": 1.89
+  },
+  "2000": {
+   "all": 11.61,
+   "legs": 11.47,
+   "waist": 4.26,
+   "arms": 12.75,
+   "error_body_pos_m": 0.1043,
+   "rmse_all_sobre_final": 1.385
+  },
+  "3000": {
+   "all": 10.31,
+   "legs": 10.33,
+   "waist": 3.62,
+   "arms": 11.22,
+   "error_body_pos_m": 0.103,
+   "rmse_all_sobre_final": 1.23
+  },
+  "4000": {
+   "all": 10.23,
+   "legs": 10.42,
+   "waist": 3.73,
+   "arms": 10.99,
+   "error_body_pos_m": 0.1026,
+   "rmse_all_sobre_final": 1.221
+  },
+  "6000": {
+   "all": 9.68,
+   "legs": 10.04,
+   "waist": 3.44,
+   "arms": 10.25,
+   "error_body_pos_m": 0.1024,
+   "rmse_all_sobre_final": 1.155
+  },
+  "8000": {
+   "all": 9.12,
+   "legs": 9.36,
+   "waist": 3.14,
+   "arms": 9.75,
+   "error_body_pos_m": 0.1029,
+   "rmse_all_sobre_final": 1.088
+  },
+  "10000": {
+   "all": 8.91,
+   "legs": 9.5,
+   "waist": 3.2,
+   "arms": 9.23,
+   "error_body_pos_m": 0.1015,
+   "rmse_all_sobre_final": 1.063
+  },
+  "12000": {
+   "all": 8.74,
+   "legs": 9.55,
+   "waist": 3.03,
+   "arms": 8.83,
+   "error_body_pos_m": 0.1025,
+   "rmse_all_sobre_final": 1.043
+  },
+  "14999": {
+   "all": 8.38,
+   "legs": 9.24,
+   "waist": 3.01,
+   "arms": 8.4,
+   "error_body_pos_m": 0.1017,
+   "rmse_all_sobre_final": 1.0
+  }
+ }
+}

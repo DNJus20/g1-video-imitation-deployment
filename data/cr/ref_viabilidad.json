@@ -1,0 +1,659 @@
+{
+ "baileaxe57.npz": {
+  "cuadros": 2849,
+  "fps": 50.0,
+  "duracion_s": 56.98,
+  "art_saltos_gt_0p5": 14,
+  "art_saltos_gt_0p2": 580,
+  "art_salto_max_rad": 0.954,
+  "art_acel_p99_rad_s2": 162.0,
+  "art_acel_max_rad_s2": 2141.9,
+  "raiz_vel_max_m_s": 1.23,
+  "raiz_vel_p99_m_s": 0.9,
+  "raiz_cuadros_gt_2m_s": 0,
+  "raiz_velang_max_deg_s": 204.0,
+  "raiz_velang_p99_deg_s": 146.0,
+  "raiz_cuadros_gt_400deg_s": 0,
+  "cuerpo_vel_max_m_s": 16.33,
+  "cuerpo_pares_gt_6m_s": 25,
+  "inclin_media_deg": 6.5,
+  "inclin_p95_deg": 17.7,
+  "inclin_max_deg": 39.4,
+  "inclin_frac_gt_30deg": 0.014,
+  "inclin_frac_gt_57deg": 0.0,
+  "pelvis_z_min_m": 0.676,
+  "pelvis_z_media_m": 0.81,
+  "pelvis_z_max_m": 0.937,
+  "pelvis_frac_lt_0p5m": 0.0,
+  "cuerpo_mas_bajo_z_min_m": 0.035,
+  "cuerpo_mas_bajo_z_media_m": 0.153,
+  "frac_en_el_aire": 0.502,
+  "tramos_en_el_aire": 12,
+  "tramo_aire_mas_largo_s": 24.54,
+  "primeros_4s": {
+   "inclin_max_deg": 12.2,
+   "pelvis_z_min_m": 0.676,
+   "raiz_vel_max_m_s": 0.81,
+   "raiz_velang_max_deg_s": 170.0,
+   "frac_en_el_aire": 0.0
+  },
+  "perfil_5s": [
+   {
+    "t0": 0,
+    "inclin_max": 12.0,
+    "pelvis_z_min": 0.68,
+    "raiz_vel_max": 0.8,
+    "raiz_velang_max": 170.0,
+    "aire": 0.0
+   },
+   {
+    "t0": 5,
+    "inclin_max": 18.0,
+    "pelvis_z_min": 0.69,
+    "raiz_vel_max": 1.2,
+    "raiz_velang_max": 111.0,
+    "aire": 0.0
+   },
+   {
+    "t0": 10,
+    "inclin_max": 24.0,
+    "pelvis_z_min": 0.7,
+    "raiz_vel_max": 1.1,
+    "raiz_velang_max": 156.0,
+    "aire": 0.02
+   },
+   {
+    "t0": 15,
+    "inclin_max": 12.0,
+    "pelvis_z_min": 0.75,
+    "raiz_vel_max": 1.1,
+    "raiz_velang_max": 196.0,
+    "aire": 0.66
+   },
+   {
+    "t0": 20,
+    "inclin_max": 14.0,
+    "pelvis_z_min": 0.74,
+    "raiz_vel_max": 0.9,
+    "raiz_velang_max": 139.0,
+    "aire": 0.13
+   },
+   {
+    "t0": 25,
+    "inclin_max": 13.0,
+    "pelvis_z_min": 0.74,
+    "raiz_vel_max": 1.0,
+    "raiz_velang_max": 113.0,
+    "aire": 0.0
+   },
+   {
+    "t0": 30,
+    "inclin_max": 22.0,
+    "pelvis_z_min": 0.73,
+    "raiz_vel_max": 0.9,
+    "raiz_velang_max": 153.0,
+    "aire": 0.51
+   },
+   {
+    "t0": 35,
+    "inclin_max": 39.0,
+    "pelvis_z_min": 0.74,
+    "raiz_vel_max": 0.6,
+    "raiz_velang_max": 138.0,
+    "aire": 1.0
+   },
+   {
+    "t0": 40,
+    "inclin_max": 19.0,
+    "pelvis_z_min": 0.79,
+    "raiz_vel_max": 0.7,
+    "raiz_velang_max": 97.0,
+    "aire": 1.0
+   },
+   {
+    "t0": 45,
+    "inclin_max": 8.0,
+    "pelvis_z_min": 0.83,
+    "raiz_vel_max": 1.0,
+    "raiz_velang_max": 89.0,
+    "aire": 1.0
+   },
+   {
+    "t0": 50,
+    "inclin_max": 11.0,
+    "pelvis_z_min": 0.83,
+    "raiz_vel_max": 1.2,
+    "raiz_velang_max": 159.0,
+    "aire": 1.0
+   },
+   {
+    "t0": 55,
+    "inclin_max": 10.0,
+    "pelvis_z_min": 0.78,
+    "raiz_vel_max": 1.0,
+    "raiz_velang_max": 204.0,
+    "aire": 1.0
+   }
+  ],
+  "cuerpo_mas_bajo_indices": {
+   "6": 1744,
+   "12": 1105
+  }
+ },
+ "baileaxe57f.npz": {
+  "cuadros": 2849,
+  "fps": 50.0,
+  "duracion_s": 56.98,
+  "art_saltos_gt_0p5": 0,
+  "art_saltos_gt_0p2": 372,
+  "art_salto_max_rad": 0.21,
+  "art_acel_p99_rad_s2": 95.7,
+  "art_acel_max_rad_s2": 700.1,
+  "raiz_vel_max_m_s": 0.97,
+  "raiz_vel_p99_m_s": 0.8,
+  "raiz_cuadros_gt_2m_s": 0,
+  "raiz_velang_max_deg_s": 165.0,
+  "raiz_velang_p99_deg_s": 134.0,
+  "raiz_cuadros_gt_400deg_s": 0,
+  "cuerpo_vel_max_m_s": 4.49,
+  "cuerpo_pares_gt_6m_s": 0,
+  "inclin_media_deg": 6.4,
+  "inclin_p95_deg": 17.7,
+  "inclin_max_deg": 39.3,
+  "inclin_frac_gt_30deg": 0.014,
+  "inclin_frac_gt_57deg": 0.0,
+  "pelvis_z_min_m": 0.677,
+  "pelvis_z_media_m": 0.81,
+  "pelvis_z_max_m": 0.933,
+  "pelvis_frac_lt_0p5m": 0.0,
+  "cuerpo_mas_bajo_z_min_m": 0.037,
+  "cuerpo_mas_bajo_z_media_m": 0.153,
+  "frac_en_el_aire": 0.499,
+  "tramos_en_el_aire": 11,
+  "tramo_aire_mas_largo_s": 24.46,
+  "primeros_4s": {
+   "inclin_max_deg": 11.1,
+   "pelvis_z_min_m": 0.677,
+   "raiz_vel_max_m_s": 0.69,
+   "raiz_velang_max_deg_s": 145.0,
+   "frac_en_el_aire": 0.0
+  },
+  "perfil_5s": [
+   {
+    "t0": 0,
+    "inclin_max": 11.0,
+    "pelvis_z_min": 0.68,
+    "raiz_vel_max": 0.7,
+    "raiz_velang_max": 145.0,
+    "aire": 0.0
+   },
+   {
+    "t0": 5,
+    "inclin_max": 17.0,
+    "pelvis_z_min": 0.69,
+    "raiz_vel_max": 0.9,
+    "raiz_velang_max": 106.0,
+    "aire": 0.0
+   },
+   {
+    "t0": 10,
+    "inclin_max": 23.0,
+    "pelvis_z_min": 0.7,
+    "raiz_vel_max": 1.0,
+    "raiz_velang_max": 146.0,
+    "aire": 0.0
+   },
+   {
+    "t0": 15,
+    "inclin_max": 10.0,
+    "pelvis_z_min": 0.75,
+    "raiz_vel_max": 0.8,
+    "raiz_velang_max": 165.0,
+    "aire": 0.66
+   },
+   {
+    "t0": 20,
+    "inclin_max": 14.0,
+    "pelvis_z_min": 0.74,
+    "raiz_vel_max": 0.8,
+    "raiz_velang_max": 114.0,
+    "aire": 0.13
+   },
+   {
+    "t0": 25,
+    "inclin_max": 12.0,
+    "pelvis_z_min": 0.74,
+    "raiz_vel_max": 0.7,
+    "raiz_velang_max": 107.0,
+    "aire": 0.0
+   },
+   {
+    "t0": 30,
+    "inclin_max": 22.0,
+    "pelvis_z_min": 0.73,
+    "raiz_vel_max": 0.8,
+    "raiz_velang_max": 137.0,
+    "aire": 0.5
+   },
+   {
+    "t0": 35,
+    "inclin_max": 39.0,
+    "pelvis_z_min": 0.74,
+    "raiz_vel_max": 0.5,
+    "raiz_velang_max": 116.0,
+    "aire": 1.0
+   },
+   {
+    "t0": 40,
+    "inclin_max": 19.0,
+    "pelvis_z_min": 0.79,
+    "raiz_vel_max": 0.6,
+    "raiz_velang_max": 87.0,
+    "aire": 1.0
+   },
+   {
+    "t0": 45,
+    "inclin_max": 7.0,
+    "pelvis_z_min": 0.83,
+    "raiz_vel_max": 0.8,
+    "raiz_velang_max": 57.0,
+    "aire": 1.0
+   },
+   {
+    "t0": 50,
+    "inclin_max": 10.0,
+    "pelvis_z_min": 0.84,
+    "raiz_vel_max": 0.8,
+    "raiz_velang_max": 140.0,
+    "aire": 1.0
+   },
+   {
+    "t0": 55,
+    "inclin_max": 10.0,
+    "pelvis_z_min": 0.79,
+    "raiz_vel_max": 0.8,
+    "raiz_velang_max": 144.0,
+    "aire": 1.0
+   }
+  ],
+  "cuerpo_mas_bajo_indices": {
+   "6": 1750,
+   "12": 1099
+  }
+ },
+ "bailetinkus30.npz": {
+  "cuadros": 1549,
+  "fps": 50.0,
+  "duracion_s": 30.98,
+  "art_saltos_gt_0p5": 0,
+  "art_saltos_gt_0p2": 354,
+  "art_salto_max_rad": 0.21,
+  "art_acel_p99_rad_s2": 111.8,
+  "art_acel_max_rad_s2": 513.1,
+  "raiz_vel_max_m_s": 1.59,
+  "raiz_vel_p99_m_s": 1.25,
+  "raiz_cuadros_gt_2m_s": 0,
+  "raiz_velang_max_deg_s": 604.0,
+  "raiz_velang_p99_deg_s": 499.0,
+  "raiz_cuadros_gt_400deg_s": 100,
+  "cuerpo_vel_max_m_s": 8.32,
+  "cuerpo_pares_gt_6m_s": 48,
+  "inclin_media_deg": 12.9,
+  "inclin_p95_deg": 39.8,
+  "inclin_max_deg": 49.8,
+  "inclin_frac_gt_30deg": 0.087,
+  "inclin_frac_gt_57deg": 0.0,
+  "pelvis_z_min_m": 0.621,
+  "pelvis_z_media_m": 0.863,
+  "pelvis_z_max_m": 1.107,
+  "pelvis_frac_lt_0p5m": 0.0,
+  "cuerpo_mas_bajo_z_min_m": 0.022,
+  "cuerpo_mas_bajo_z_media_m": 0.154,
+  "frac_en_el_aire": 0.555,
+  "tramos_en_el_aire": 17,
+  "tramo_aire_mas_largo_s": 4.88,
+  "primeros_4s": {
+   "inclin_max_deg": 9.3,
+   "pelvis_z_min_m": 0.819,
+   "raiz_vel_max_m_s": 1.59,
+   "raiz_velang_max_deg_s": 184.0,
+   "frac_en_el_aire": 1.0
+  },
+  "perfil_5s": [
+   {
+    "t0": 0,
+    "inclin_max": 15.0,
+    "pelvis_z_min": 0.8,
+    "raiz_vel_max": 1.6,
+    "raiz_velang_max": 184.0,
+    "aire": 0.94
+   },
+   {
+    "t0": 5,
+    "inclin_max": 28.0,
+    "pelvis_z_min": 0.76,
+    "raiz_vel_max": 1.2,
+    "raiz_velang_max": 194.0,
+    "aire": 0.82
+   },
+   {
+    "t0": 10,
+    "inclin_max": 49.0,
+    "pelvis_z_min": 0.83,
+    "raiz_vel_max": 0.8,
+    "raiz_velang_max": 198.0,
+    "aire": 0.71
+   },
+   {
+    "t0": 15,
+    "inclin_max": 41.0,
+    "pelvis_z_min": 0.7,
+    "raiz_vel_max": 1.3,
+    "raiz_velang_max": 604.0,
+    "aire": 0.03
+   },
+   {
+    "t0": 20,
+    "inclin_max": 50.0,
+    "pelvis_z_min": 0.62,
+    "raiz_vel_max": 1.0,
+    "raiz_velang_max": 248.0,
+    "aire": 0.14
+   },
+   {
+    "t0": 25,
+    "inclin_max": 49.0,
+    "pelvis_z_min": 0.69,
+    "raiz_vel_max": 1.2,
+    "raiz_velang_max": 515.0,
+    "aire": 0.61
+   }
+  ],
+  "cuerpo_mas_bajo_indices": {
+   "6": 699,
+   "12": 850
+  }
+ },
+ "bailemix57.npz": {
+  "cuadros": 2849,
+  "fps": 50.0,
+  "duracion_s": 56.98,
+  "art_saltos_gt_0p5": 37,
+  "art_saltos_gt_0p2": 623,
+  "art_salto_max_rad": 0.884,
+  "art_acel_p99_rad_s2": 177.1,
+  "art_acel_max_rad_s2": 2246.4,
+  "raiz_vel_max_m_s": 1.19,
+  "raiz_vel_p99_m_s": 0.8,
+  "raiz_cuadros_gt_2m_s": 0,
+  "raiz_velang_max_deg_s": 703.0,
+  "raiz_velang_p99_deg_s": 492.0,
+  "raiz_cuadros_gt_400deg_s": 76,
+  "cuerpo_vel_max_m_s": 10.45,
+  "cuerpo_pares_gt_6m_s": 47,
+  "inclin_media_deg": 8.0,
+  "inclin_p95_deg": 21.1,
+  "inclin_max_deg": 54.7,
+  "inclin_frac_gt_30deg": 0.009,
+  "inclin_frac_gt_57deg": 0.0,
+  "pelvis_z_min_m": 0.76,
+  "pelvis_z_media_m": 0.922,
+  "pelvis_z_max_m": 1.092,
+  "pelvis_frac_lt_0p5m": 0.0,
+  "cuerpo_mas_bajo_z_min_m": 0.03,
+  "cuerpo_mas_bajo_z_media_m": 0.187,
+  "frac_en_el_aire": 0.651,
+  "tramos_en_el_aire": 10,
+  "tramo_aire_mas_largo_s": 34.72,
+  "primeros_4s": {
+   "inclin_max_deg": 10.7,
+   "pelvis_z_min_m": 0.784,
+   "raiz_vel_max_m_s": 0.97,
+   "raiz_velang_max_deg_s": 694.0,
+   "frac_en_el_aire": 0.0
+  },
+  "perfil_5s": [
+   {
+    "t0": 0,
+    "inclin_max": 21.0,
+    "pelvis_z_min": 0.78,
+    "raiz_vel_max": 1.0,
+    "raiz_velang_max": 694.0,
+    "aire": 0.0
+   },
+   {
+    "t0": 5,
+    "inclin_max": 55.0,
+    "pelvis_z_min": 0.76,
+    "raiz_vel_max": 0.9,
+    "raiz_velang_max": 703.0,
+    "aire": 0.0
+   },
+   {
+    "t0": 10,
+    "inclin_max": 25.0,
+    "pelvis_z_min": 0.79,
+    "raiz_vel_max": 0.7,
+    "raiz_velang_max": 201.0,
+    "aire": 0.17
+   },
+   {
+    "t0": 15,
+    "inclin_max": 16.0,
+    "pelvis_z_min": 0.83,
+    "raiz_vel_max": 1.0,
+    "raiz_velang_max": 375.0,
+    "aire": 0.84
+   },
+   {
+    "t0": 20,
+    "inclin_max": 22.0,
+    "pelvis_z_min": 0.96,
+    "raiz_vel_max": 0.9,
+    "raiz_velang_max": 486.0,
+    "aire": 1.0
+   },
+   {
+    "t0": 25,
+    "inclin_max": 19.0,
+    "pelvis_z_min": 0.93,
+    "raiz_vel_max": 1.2,
+    "raiz_velang_max": 561.0,
+    "aire": 1.0
+   },
+   {
+    "t0": 30,
+    "inclin_max": 8.0,
+    "pelvis_z_min": 0.87,
+    "raiz_vel_max": 0.8,
+    "raiz_velang_max": 111.0,
+    "aire": 1.0
+   },
+   {
+    "t0": 35,
+    "inclin_max": 11.0,
+    "pelvis_z_min": 0.87,
+    "raiz_vel_max": 0.9,
+    "raiz_velang_max": 549.0,
+    "aire": 1.0
+   },
+   {
+    "t0": 40,
+    "inclin_max": 26.0,
+    "pelvis_z_min": 0.9,
+    "raiz_vel_max": 0.9,
+    "raiz_velang_max": 478.0,
+    "aire": 1.0
+   },
+   {
+    "t0": 45,
+    "inclin_max": 27.0,
+    "pelvis_z_min": 0.96,
+    "raiz_vel_max": 0.8,
+    "raiz_velang_max": 447.0,
+    "aire": 1.0
+   },
+   {
+    "t0": 50,
+    "inclin_max": 29.0,
+    "pelvis_z_min": 0.8,
+    "raiz_vel_max": 0.9,
+    "raiz_velang_max": 306.0,
+    "aire": 0.41
+   },
+   {
+    "t0": 55,
+    "inclin_max": 19.0,
+    "pelvis_z_min": 0.78,
+    "raiz_vel_max": 0.5,
+    "raiz_velang_max": 306.0,
+    "aire": 0.0
+   }
+  ],
+  "cuerpo_mas_bajo_indices": {
+   "6": 1673,
+   "12": 1176
+  }
+ },
+ "bailemix57f.npz": {
+  "cuadros": 2849,
+  "fps": 50.0,
+  "duracion_s": 56.98,
+  "art_saltos_gt_0p5": 0,
+  "art_saltos_gt_0p2": 414,
+  "art_salto_max_rad": 0.21,
+  "art_acel_p99_rad_s2": 99.4,
+  "art_acel_max_rad_s2": 650.8,
+  "raiz_vel_max_m_s": 0.81,
+  "raiz_vel_p99_m_s": 0.65,
+  "raiz_cuadros_gt_2m_s": 0,
+  "raiz_velang_max_deg_s": 635.0,
+  "raiz_velang_p99_deg_s": 474.0,
+  "raiz_cuadros_gt_400deg_s": 71,
+  "cuerpo_vel_max_m_s": 5.39,
+  "cuerpo_pares_gt_6m_s": 0,
+  "inclin_media_deg": 7.9,
+  "inclin_p95_deg": 20.7,
+  "inclin_max_deg": 53.8,
+  "inclin_frac_gt_30deg": 0.009,
+  "inclin_frac_gt_57deg": 0.0,
+  "pelvis_z_min_m": 0.762,
+  "pelvis_z_media_m": 0.921,
+  "pelvis_z_max_m": 1.089,
+  "pelvis_frac_lt_0p5m": 0.0,
+  "cuerpo_mas_bajo_z_min_m": 0.032,
+  "cuerpo_mas_bajo_z_media_m": 0.187,
+  "frac_en_el_aire": 0.652,
+  "tramos_en_el_aire": 9,
+  "tramo_aire_mas_largo_s": 35.24,
+  "primeros_4s": {
+   "inclin_max_deg": 10.5,
+   "pelvis_z_min_m": 0.787,
+   "raiz_vel_max_m_s": 0.72,
+   "raiz_velang_max_deg_s": 635.0,
+   "frac_en_el_aire": 0.0
+  },
+  "perfil_5s": [
+   {
+    "t0": 0,
+    "inclin_max": 21.0,
+    "pelvis_z_min": 0.79,
+    "raiz_vel_max": 0.7,
+    "raiz_velang_max": 635.0,
+    "aire": 0.0
+   },
+   {
+    "t0": 5,
+    "inclin_max": 54.0,
+    "pelvis_z_min": 0.76,
+    "raiz_vel_max": 0.7,
+    "raiz_velang_max": 474.0,
+    "aire": 0.0
+   },
+   {
+    "t0": 10,
+    "inclin_max": 25.0,
+    "pelvis_z_min": 0.79,
+    "raiz_vel_max": 0.6,
+    "raiz_velang_max": 183.0,
+    "aire": 0.18
+   },
+   {
+    "t0": 15,
+    "inclin_max": 14.0,
+    "pelvis_z_min": 0.83,
+    "raiz_vel_max": 0.7,
+    "raiz_velang_max": 347.0,
+    "aire": 0.84
+   },
+   {
+    "t0": 20,
+    "inclin_max": 21.0,
+    "pelvis_z_min": 0.96,
+    "raiz_vel_max": 0.6,
+    "raiz_velang_max": 368.0,
+    "aire": 1.0
+   },
+   {
+    "t0": 25,
+    "inclin_max": 18.0,
+    "pelvis_z_min": 0.93,
+    "raiz_vel_max": 0.8,
+    "raiz_velang_max": 538.0,
+    "aire": 1.0
+   },
+   {
+    "t0": 30,
+    "inclin_max": 7.0,
+    "pelvis_z_min": 0.87,
+    "raiz_vel_max": 0.4,
+    "raiz_velang_max": 78.0,
+    "aire": 1.0
+   },
+   {
+    "t0": 35,
+    "inclin_max": 11.0,
+    "pelvis_z_min": 0.87,
+    "raiz_vel_max": 0.7,
+    "raiz_velang_max": 526.0,
+    "aire": 1.0
+   },
+   {
+    "t0": 40,
+    "inclin_max": 25.0,
+    "pelvis_z_min": 0.91,
+    "raiz_vel_max": 0.6,
+    "raiz_velang_max": 412.0,
+    "aire": 1.0
+   },
+   {
+    "t0": 45,
+    "inclin_max": 27.0,
+    "pelvis_z_min": 0.96,
+    "raiz_vel_max": 0.6,
+    "raiz_velang_max": 297.0,
+    "aire": 1.0
+   },
+   {
+    "t0": 50,
+    "inclin_max": 29.0,
+    "pelvis_z_min": 0.8,
+    "raiz_vel_max": 0.6,
+    "raiz_velang_max": 299.0,
+    "aire": 0.41
+   },
+   {
+    "t0": 55,
+    "inclin_max": 19.0,
+    "pelvis_z_min": 0.78,
+    "raiz_vel_max": 0.4,
+    "raiz_velang_max": 262.0,
+    "aire": 0.0
+   }
+  ],
+  "cuerpo_mas_bajo_indices": {
+   "6": 1677,
+   "12": 1172
+  }
+ }
+}

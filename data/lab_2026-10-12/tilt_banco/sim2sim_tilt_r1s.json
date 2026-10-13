@@ -1,0 +1,13 @@
+{
+ "eje": "roll+",
+ "rate_rad_s": 0.05,
+ "k_ori": 3000.0,
+ "d_ori": 400.0,
+ "z_band": 0.95,
+ "umbral_codigo_deg": 57.29577951308232,
+ "trigger": null,
+ "ultimo_bajo_control": null,
+ "ncmd_total": 39408,
+ "lag_max_s": 0.004,
+ "velocity_alcanzado": false
+}

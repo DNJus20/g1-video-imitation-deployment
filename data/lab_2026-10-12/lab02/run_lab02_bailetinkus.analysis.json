@@ -1,0 +1,145 @@
+{
+ "run": "run_lab02_bailetinkus",
+ "outcome": "interrupted_by_safeguard",
+ "condition": "harness",
+ "notes": "nuestro deploy, R1+X; interrumpida por el salvaguarda de inclinacion a los 27.28 s; RMSE hasta el instante del damping",
+ "launch": "nuestro deploy (g1_ctrl + launcher), mando R1+X",
+ "samples": 317727,
+ "rate_hz_mean": 1041.7,
+ "n_sample_gaps_gt50ms": 0,
+ "ref": "bailetinkus30.npz",
+ "ref_fps": 50.0,
+ "ref_duration_s": 27.28,
+ "t0_given_s": 196.66,
+ "ref_cut_s": 27.28,
+ "align_lag_s": -0.048,
+ "align_lag_at_edge": false,
+ "dance_start_in_record_s": 196.708,
+ "ref_frames_used": 1364,
+ "rmse_all_deg": 14.5,
+ "rmse_legs_rad": 0.2969,
+ "rmse_waist_rad": 0.1391,
+ "rmse_arms_rad": 0.23,
+ "rmse_all_rad": 0.253,
+ "rmse_per_joint_deg": {
+  "LHipPitch": 18.0,
+  "LHipRoll": 9.7,
+  "LHipYaw": 9.3,
+  "LKnee": 29.1,
+  "LAnklePitch": 17.7,
+  "LAnkleRoll": 7.6,
+  "RHipPitch": 18.4,
+  "RHipRoll": 9.4,
+  "RHipYaw": 10.3,
+  "RKnee": 30.3,
+  "RAnklePitch": 15.2,
+  "RAnkleRoll": 8.1,
+  "WaistYaw": 8.7,
+  "WaistRoll": 7.2,
+  "WaistPitch": 8.0,
+  "LShPitch": 14.6,
+  "LShRoll": 9.4,
+  "LShYaw": 9.7,
+  "LElbow": 22.1,
+  "LWristRoll": 9.2,
+  "LWristPitch": 12.4,
+  "LWristYaw": 16.2,
+  "RShPitch": 14.0,
+  "RShRoll": 10.4,
+  "RShYaw": 7.5,
+  "RElbow": 20.8,
+  "RWristRoll": 7.5,
+  "RWristPitch": 9.5,
+  "RWristYaw": 10.4
+ },
+ "worst_joints_deg": [
+  [
+   "RKnee",
+   30.3
+  ],
+  [
+   "LKnee",
+   29.1
+  ],
+  [
+   "LElbow",
+   22.1
+  ],
+  [
+   "RElbow",
+   20.8
+  ],
+  [
+   "RHipPitch",
+   18.4
+  ]
+ ],
+ "window_s": 27.28,
+ "max_abs_roll_deg": 49.2,
+ "max_abs_pitch_deg": 55.4,
+ "rms_roll_deg": 11.42,
+ "rms_pitch_deg": 14.13,
+ "max_motor_temp_C": 90.0,
+ "hottest_motor": "WaistRoll",
+ "max_casing_C_idx0": 53.0,
+ "max_winding_C_idx1": 90.0,
+ "any_motor_fault": false,
+ "frac_in_control": 1.0,
+ "max_temp_legs_C": 62.0,
+ "max_temp_waist_C": 90.0,
+ "max_temp_arms_C": 65.0,
+ "rmse_vs_lag_deg": [
+  [
+   -1.5,
+   36.3
+  ],
+  [
+   -1.25,
+   34.7
+  ],
+  [
+   -1.0,
+   33.6
+  ],
+  [
+   -0.75,
+   33.9
+  ],
+  [
+   -0.5,
+   33.3
+  ],
+  [
+   -0.25,
+   24.9
+  ],
+  [
+   0.0,
+   15.5
+  ],
+  [
+   0.25,
+   29.8
+  ],
+  [
+   0.5,
+   34.1
+  ],
+  [
+   0.75,
+   33.4
+  ],
+  [
+   1.0,
+   33.8
+  ],
+  [
+   1.25,
+   35.2
+  ],
+  [
+   1.5,
+   36.0
+  ]
+ ]
+}

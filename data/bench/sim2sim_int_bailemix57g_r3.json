@@ -1,0 +1,42 @@
+{
+ "transiciones": [
+  {
+   "t_s": 5.501,
+   "de": "Passive",
+   "a": "FixStand"
+  },
+  {
+   "t_s": 9.501,
+   "de": "FixStand",
+   "a": "Velocity"
+  },
+  {
+   "t_s": 15.501,
+   "de": "Velocity",
+   "a": "Mimic_Tinkus"
+  },
+  {
+   "t_s": 72.482,
+   "de": "Mimic_Tinkus",
+   "a": "Velocity"
+  }
+ ],
+ "estado": "Mimic_Tinkus",
+ "entro_a_mimic": true,
+ "dur_mimic_s": 56.98,
+ "altura_pelvis_min_m": 0.655,
+ "roll_max_deg": 27.5,
+ "pitch_max_deg": 46.9,
+ "caida": false,
+ "altura_pelvis_min_post_m": 0.731,
+ "rmse_all_rad": 0.2284,
+ "rmse_all_deg": 13.08,
+ "rmse_legs_rad": 0.2636,
+ "rmse_legs_deg": 15.11,
+ "rmse_waist_rad": 0.0939,
+ "rmse_waist_deg": 5.38,
+ "rmse_arms_rad": 0.2158,
+ "rmse_arms_deg": 12.36,
+ "lag_tiempo_real_max_s": 0.0046,
+ "lowcmd_hz_medio": 880.8
+}

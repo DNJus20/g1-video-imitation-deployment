@@ -1,0 +1,23 @@
+{
+  "run": "run_lab02_bailetinkus",
+  "complete": true,
+  "logger": "lowstate_logger (C++ en el Jetson, DDS interno eth0, sin cable externo)",
+  "wall_start": "2026-10-13 05:20:03",
+  "duration_s": 305.02,
+  "samples": 317727,
+  "rate_hz": 1041.7,
+  "rate_hz_wall": 1041.7,
+  "mode_machine": 5,
+  "max_abs_roll_deg": 49.2,
+  "max_abs_pitch_deg": 85.6,
+  "max_motor_temp_C": 90,
+  "max_casing_C_idx0": 53,
+  "max_winding_C_idx1": 90,
+  "imu_temp_C_max": 79,
+  "any_motor_fault": false,
+  "capture_gaps_gt_50ms": 0,
+  "n_mode0_max": 0,
+  "outcome": "interrupted_by_safeguard",
+  "condition": "harness",
+  "notes": "Nuestro deploy (g1_ctrl+launcher), mando R1+X, PC1 nueva, arnes. FSM: Velocity->Mimic_Tinkus 05:23:20.043, Mimic_Tinkus->Passive 05:23:47.322 (damping por inclinacion, bad_orientation>1 rad) a los 27.3 s de 30.98 s. Corrida interrumpida por el salvaguarda de inclinacion tras interferencia del arnes."
+}

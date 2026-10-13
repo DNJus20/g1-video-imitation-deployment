@@ -1,0 +1,310 @@
+{
+  "2026-07-21_19-47-02": {
+    "descripcion": "baileaxe57 (politica desplegada)",
+    "tags_disponibles": 36,
+    "Metrics/motion/error_body_pos": {
+      "ultima_iter": 14999,
+      "valor_final": 0.0906,
+      "iter_500": 0.159,
+      "iter_1000": 0.1009,
+      "iter_2000": 0.102,
+      "iter_3000": 0.1067,
+      "iter_5000": 0.0926,
+      "iter_10000": 0.0977,
+      "iter_14999": 0.0906
+    },
+    "Metrics/motion/error_joint_pos": {
+      "ultima_iter": 14999,
+      "valor_final": 0.725,
+      "iter_500": 1.83,
+      "iter_1000": 1.4503,
+      "iter_2000": 1.0005,
+      "iter_3000": 0.9168,
+      "iter_5000": 0.8008,
+      "iter_10000": 0.7825,
+      "iter_14999": 0.725
+    },
+    "Episode_Termination/ee_body_pos": {
+      "ultima_iter": 14999,
+      "valor_final": 0.3333,
+      "iter_500": 74.2917,
+      "iter_1000": 4.625,
+      "iter_2000": 1.9167,
+      "iter_3000": 1.9583,
+      "iter_5000": 0.7083,
+      "iter_10000": 0.4583,
+      "iter_14999": 0.3333
+    },
+    "Episode_Termination/anchor_pos": {
+      "ultima_iter": 14999,
+      "valor_final": 0.0,
+      "iter_500": 0.7917,
+      "iter_1000": 0.125,
+      "iter_2000": 0.0833,
+      "iter_3000": 0.0417,
+      "iter_5000": 0.0,
+      "iter_10000": 0.0,
+      "iter_14999": 0.0
+    },
+    "Episode_Termination/anchor_ori": {
+      "ultima_iter": 14999,
+      "valor_final": 0.0,
+      "iter_500": 0.0,
+      "iter_1000": 0.0,
+      "iter_2000": 0.0,
+      "iter_3000": 0.0,
+      "iter_5000": 0.0,
+      "iter_10000": 0.0,
+      "iter_14999": 0.0
+    },
+    "Episode_Termination/time_out": {
+      "ultima_iter": 14999,
+      "valor_final": 17.1667,
+      "iter_500": 12.0833,
+      "iter_1000": 16.2917,
+      "iter_2000": 15.8333,
+      "iter_3000": 16.8333,
+      "iter_5000": 14.9583,
+      "iter_10000": 16.75,
+      "iter_14999": 17.1667
+    },
+    "Train/mean_reward": {
+      "ultima_iter": 14999,
+      "valor_final": 33.2212,
+      "iter_500": 3.0611,
+      "iter_1000": 17.6575,
+      "iter_2000": 24.594,
+      "iter_3000": 27.2794,
+      "iter_5000": 29.8845,
+      "iter_10000": 31.5595,
+      "iter_14999": 33.2212
+    },
+    "Train/mean_episode_length": {
+      "ultima_iter": 14999,
+      "valor_final": 485.69,
+      "iter_500": 83.72,
+      "iter_1000": 404.18,
+      "iter_2000": 455.2,
+      "iter_3000": 455.18,
+      "iter_5000": 473.98,
+      "iter_10000": 488.72,
+      "iter_14999": 485.69
+    },
+    "iter_max": 14999
+  },
+  "2026-07-22_17-19-12": {
+    "descripcion": "bailemix57 (no convergio, detenido)",
+    "tags_disponibles": 36,
+    "Metrics/motion/error_body_pos": {
+      "ultima_iter": 3040,
+      "valor_final": 0.2245,
+      "iter_500": 0.2396,
+      "iter_1000": 0.2245,
+      "iter_2000": 0.2249,
+      "iter_3000": 0.2253
+    },
+    "Metrics/motion/error_joint_pos": {
+      "ultima_iter": 3040,
+      "valor_final": 1.1123,
+      "iter_500": 1.7598,
+      "iter_1000": 1.4903,
+      "iter_2000": 1.1818,
+      "iter_3000": 1.1146
+    },
+    "Episode_Termination/ee_body_pos": {
+      "ultima_iter": 3040,
+      "valor_final": 99.6667,
+      "iter_500": 201.7917,
+      "iter_1000": 266.2083,
+      "iter_2000": 122.7917,
+      "iter_3000": 100.7083
+    },
+    "Episode_Termination/anchor_pos": {
+      "ultima_iter": 3040,
+      "valor_final": 56.0833,
+      "iter_500": 76.25,
+      "iter_1000": 105.7917,
+      "iter_2000": 61.125,
+      "iter_3000": 57.4583
+    },
+    "Episode_Termination/anchor_ori": {
+      "ultima_iter": 3040,
+      "valor_final": 0.0,
+      "iter_500": 0.0,
+      "iter_1000": 0.0,
+      "iter_2000": 0.0,
+      "iter_3000": 0.0
+    },
+    "Episode_Termination/time_out": {
+      "ultima_iter": 3040,
+      "valor_final": 12.8333,
+      "iter_500": 0.0,
+      "iter_1000": 0.125,
+      "iter_2000": 8.7083,
+      "iter_3000": 12.875
+    },
+    "Train/mean_reward": {
+      "ultima_iter": 3040,
+      "valor_final": 3.2085,
+      "iter_500": 1.201,
+      "iter_1000": 0.9831,
+      "iter_2000": 2.1177,
+      "iter_3000": 1.6794
+    },
+    "Train/mean_episode_length": {
+      "ultima_iter": 3040,
+      "valor_final": 73.34,
+      "iter_500": 36.68,
+      "iter_1000": 30.47,
+      "iter_2000": 57.59,
+      "iter_3000": 40.24
+    },
+    "iter_max": 3040
+  },
+  "2026-09-08_17-04-34": {
+    "descripcion": "bailetinkus30 (segundo movimiento)",
+    "tags_disponibles": 36,
+    "Metrics/motion/error_body_pos": {
+      "ultima_iter": 14999,
+      "valor_final": 0.1503,
+      "iter_500": 0.2363,
+      "iter_1000": 0.2084,
+      "iter_2000": 0.1559,
+      "iter_3000": 0.1391,
+      "iter_5000": 0.1431,
+      "iter_10000": 0.1426,
+      "iter_14999": 0.1503
+    },
+    "Metrics/motion/error_joint_pos": {
+      "ultima_iter": 14999,
+      "valor_final": 1.0878,
+      "iter_500": 1.5623,
+      "iter_1000": 1.6282,
+      "iter_2000": 1.3572,
+      "iter_3000": 1.2804,
+      "iter_5000": 1.2353,
+      "iter_10000": 1.1006,
+      "iter_14999": 1.0878
+    },
+    "Episode_Termination/ee_body_pos": {
+      "ultima_iter": 14999,
+      "valor_final": 2.7917,
+      "iter_500": 129.0,
+      "iter_1000": 28.4583,
+      "iter_2000": 12.2083,
+      "iter_3000": 5.875,
+      "iter_5000": 3.75,
+      "iter_10000": 3.0417,
+      "iter_14999": 2.7917
+    },
+    "Episode_Termination/anchor_pos": {
+      "ultima_iter": 14999,
+      "valor_final": 0.3333,
+      "iter_500": 46.125,
+      "iter_1000": 9.0417,
+      "iter_2000": 3.0417,
+      "iter_3000": 1.5833,
+      "iter_5000": 0.7917,
+      "iter_10000": 0.2917,
+      "iter_14999": 0.3333
+    },
+    "Episode_Termination/anchor_ori": {
+      "ultima_iter": 14999,
+      "valor_final": 0.0,
+      "iter_500": 0.2917,
+      "iter_1000": 0.0,
+      "iter_2000": 0.0,
+      "iter_3000": 0.0,
+      "iter_5000": 0.0,
+      "iter_10000": 0.0,
+      "iter_14999": 0.0
+    },
+    "Episode_Termination/time_out": {
+      "ultima_iter": 14999,
+      "valor_final": 16.0,
+      "iter_500": 0.0,
+      "iter_1000": 8.5833,
+      "iter_2000": 13.1667,
+      "iter_3000": 14.7917,
+      "iter_5000": 14.0,
+      "iter_10000": 15.2083,
+      "iter_14999": 16.0
+    },
+    "Train/mean_reward": {
+      "ultima_iter": 14999,
+      "valor_final": 24.175,
+      "iter_500": 1.4017,
+      "iter_1000": 5.6974,
+      "iter_2000": 10.1998,
+      "iter_3000": 13.9669,
+      "iter_5000": 18.9729,
+      "iter_10000": 23.7942,
+      "iter_14999": 24.175
+    },
+    "Train/mean_episode_length": {
+      "ultima_iter": 14999,
+      "valor_final": 421.93,
+      "iter_500": 42.25,
+      "iter_1000": 178.72,
+      "iter_2000": 265.47,
+      "iter_3000": 352.67,
+      "iter_5000": 424.37,
+      "iter_10000": 447.51,
+      "iter_14999": 421.93
+    },
+    "iter_max": 14999
+  },
+  "2026-07-31_01-06-19": {
+    "descripcion": "baileaxe57 config sim2real-hardened (segfault)",
+    "tags_disponibles": 36,
+    "Metrics/motion/error_body_pos": {
+      "ultima_iter": 1582,
+      "valor_final": 0.097,
+      "iter_500": 0.1706,
+      "iter_1000": 0.1026
+    },
+    "Metrics/motion/error_joint_pos": {
+      "ultima_iter": 1582,
+      "valor_final": 1.0812,
+      "iter_500": 2.0073,
+      "iter_1000": 1.5794
+    },
+    "Episode_Termination/ee_body_pos": {
+      "ultima_iter": 1582,
+      "valor_final": 3.1667,
+      "iter_500": 76.9583,
+      "iter_1000": 5.7083
+    },
+    "Episode_Termination/anchor_pos": {
+      "ultima_iter": 1582,
+      "valor_final": 0.0833,
+      "iter_500": 1.3333,
+      "iter_1000": 0.125
+    },
+    "Episode_Termination/anchor_ori": {
+      "ultima_iter": 1582,
+      "valor_final": 0.0,
+      "iter_500": 0.0,
+      "iter_1000": 0.0
+    },
+    "Episode_Termination/time_out": {
+      "ultima_iter": 1582,
+      "valor_final": 15.125,
+      "iter_500": 11.2083,
+      "iter_1000": 15.0417
+    },
+    "Train/mean_reward": {
+      "ultima_iter": 1582,
+      "valor_final": 24.5084,
+      "iter_500": 2.4862,
+      "iter_1000": 17.5816
+    },
+    "Train/mean_episode_length": {
+      "ultima_iter": 1582,
+      "valor_final": 410.53,
+      "iter_500": 71.64,
+      "iter_1000": 404.05
+    },
+    "iter_max": 1582
+  }
+}
